@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## Overview
 
-You can use the [editor on GitHub](https://github.com/ml-logic-seminar/ml_logic_website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Over the last few decades, the two central fields of AI, namely, machine learning and symbolic reasoning (e.g., SAT/SMT/CP solvers), have developed relatively independently. Researchers have considered a variety of ways to bringing these fields together, under the broad umbrella of neuro-symbolic computing. In our research, we are working on a variety of neuro-symbolic methods that enable greater control over the learning process of machine learning models by combining machine learning with symbolic or logical reasoning. We are applying these methods to Math, Physics, and other practical applications. Concurrently, we are working towards solver-based testing, analysis, and verification (TAV) methods aimed at making neural networks reliable and trust worthy. Some of the projects we are working on include:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+1. Logic Guided Machine Learning (LGML)
+2. LogicGAN: Logic Guided Generative Adversarial Networks
+3. Discovering Symmetry Invariants and Conserved Quantities by Interpreting Siamese Neural Networks
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Click here to see how machine learning can help logical reasoning.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ml-logic-seminar/ml_logic_website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
