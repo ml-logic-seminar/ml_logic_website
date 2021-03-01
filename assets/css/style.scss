@@ -36,19 +36,11 @@
 * {
   box-sizing: border-box;
 };
-.column {
-  flex: none;
-  padding: 2px;
-};
-.row {
+.container {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-};
-.rowHeader {
-  display: flex;
-  justify-content: space-between;
-  align-content: space-between;
+  justify-content: flex-end;
+  flex-flow: column wrap;
+  align-items: center;
 };
 @media (max-width: 840px) {
   .topnav a:not(:first-child) {display: none;};
