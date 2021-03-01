@@ -38,6 +38,7 @@
 * {
   box-sizing: border-box;
 };
+
 .container {
   display: flex;
   height: 100%;
@@ -46,6 +47,29 @@
   flex-flow: column wrap;
   align-items: center;
 };
+
+.page-header {
+  color: $header-heading-color;
+  text-align: center;
+  background-color: $header-bg-color;
+  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+
+  @include large {
+    margin: 5rem 6rem;
+    padding: 0;
+  }
+
+  @include medium {
+    margin: 3rem 4rem;
+    padding: 0;
+  }
+
+  @include small {
+    margin: 2rem 1rem;
+    padding: 0;
+  }
+}
+
 @media (max-width: 840px) {
   .topnav a:not(:first-child) {display: none;};
   .topnav a.icon {
