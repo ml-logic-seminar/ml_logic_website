@@ -13,4 +13,4 @@ To answer these and related questions we are working on a variety of methods tha
 - Discovering Symmetry Invariants and Conserved Quantities by Interpreting Siamese Neural Networks
 - LGGA: Logic Guided Genetic Algorithms
 
-Click [here](https://sites.google.com/a/gsd.uwaterloo.ca/maplesat/){target="_blank"} to see how machine learning can help logical reasoning.
+Click [here](https://sites.google.com/a/gsd.uwaterloo.ca/maplesat/){:target="_blank"} to see how machine learning can help logical reasoning.
