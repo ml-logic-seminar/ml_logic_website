@@ -9,8 +9,8 @@ Here, knowledge is represented in symbolic form, while learning is computed thro
 
 ## Projects
 Currently, we have three projects in the space of Neural Symbolic Computing:
-1. [Logic Guided Machine Learning(LGML)](https://github.com/ml-logic-seminar/ml_logic_website/blob/gh-pages/lgml.md){:target="_blank"}
-2. [xAI-GAN: Enhancing Generative Adversarial Networks via Explainable AI Systems](https://github.com/ml-logic-seminar/ml_logic_website/blob/gh-pages/xAIGAN.md){:target="_blank"}
+1. [Logic Guided Machine Learning(LGML)](https://ml-logic-seminar.github.io/ml_logic_website/lgml.html){:target="_blank"}
+2. [xAI-GAN: Enhancing Generative Adversarial Networks via Explainable AI Systems](https://ml-logic-seminar.github.io/ml_logic_website/xAIGAN.html){:target="_blank"}
 3. [Logic Guided Genetic Algorithms (LGGA)](https://dhananjayashok.github.io/LGGA/){:target="_blank"}
 
 
