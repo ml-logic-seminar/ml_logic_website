@@ -7,6 +7,10 @@
   background-color: #333;
   overflow: hidden;
   width: 100%;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* Style the links inside the navigation bar */
