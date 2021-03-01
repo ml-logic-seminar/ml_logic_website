@@ -12,5 +12,3 @@ Some of the projects we are working on include:
 5. [Logic Guided Genetic Algorithms (LGGA)](https://dhananjayashok.github.io/LGGA/){:target="_blank"}
 6. [ML for Sequential Solvers](https://sites.google.com/a/gsd.uwaterloo.ca/maplesat/){:target="_blank"}
 7. [ML for Parallel Solvers](https://sites.google.com/view/crypto-sat/home?authuser=0){:target="_blank"}
-
-Click [here](https://sites.google.com/a/gsd.uwaterloo.ca/maplesat/){:target="_blank"} to see how machine learning can help logical reasoning.
