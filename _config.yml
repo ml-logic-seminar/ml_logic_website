@@ -1,4 +1,4 @@
 theme: bulma-clean-theme
-gem "github-pages", group, "bulma-clean-theme": jekyll_plugins
+gem "github-pages", group: jekyll_plugins
 title: Logic + Machine Learning
 show_downloads: true
