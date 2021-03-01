@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 gem "github-pages", group: :jekyll_plugins
 title: Logic + Machine Learning
-show_downloads: true
+show_downloads: false
