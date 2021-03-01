@@ -1,3 +1,6 @@
+# Other Projects
+
+
 ## MapleSAT
 [MapleSAT](https://sites.google.com/a/gsd.uwaterloo.ca/maplesat/){:target="_blank"} series of SAT solvers is a family of conflict-driven clause-learning SAT solvers outfitted with machine learning-based heuristics. 
 
