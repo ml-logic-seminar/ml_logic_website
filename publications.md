@@ -1,11 +1,11 @@
 # Publications
 
 
-- Scott, Joseph, Maysum Panju, and Vijay Ganesh. "LGML: Logic Guided Machine Learning (Student Abstract)." In Proceedings of the AAAI Conference on Artificial Intelligence, vol. 34, no. 10, pp. 13909-13910. 2020. [[pdf](https://cs.uwaterloo.ca/~j29scott/pdfs/aaai20.pdf) [slides](https://drive.google.com/file/d/1ZAYQ_aW3GeN4cgBzookLmx-9wgasvEbv/view){:target="_blank"}]
+- Scott, Joseph, Maysum Panju, and Vijay Ganesh. "LGML: Logic Guided Machine Learning (Student Abstract)." In Proceedings of the AAAI Conference on Artificial Intelligence, vol. 34, no. 10, pp. 13909-13910. 2020. [[pdf](https://cs.uwaterloo.ca/~j29scott/pdfs/aaai20.pdf){:target="_blank"}]
 
 
 
-- Nagisetty, Vineel, Laura Graves, Joseph Scott, and Vijay Ganesh. "xAI-GAN: Enhancing Generative Adversarial Networks via Explainable AI Systems." arXiv preprint arXiv:2002.10438 (2020). [[pdf](https://arxiv.org/abs/2002.10438) [slides](https://docs.google.com/presentation/d/1JOq9JgHxVA6aa2LVUtXaLrRE9i22HUVRGMpzA9JDixs/edit){:target="_blank"}]
+- Nagisetty, Vineel, Laura Graves, Joseph Scott, and Vijay Ganesh. "xAI-GAN: Enhancing Generative Adversarial Networks via Explainable AI Systems." arXiv preprint arXiv:2002.10438 (2020). [[pdf](https://arxiv.org/abs/2002.10438){:target="_blank"}]
 
 
 
