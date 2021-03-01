@@ -8,9 +8,9 @@ In the reverse direction, ML methods have already been successfully applied to m
 
 To answer these and related questions we are working on a variety of methods that enable greater control over the learning process of machine learning models by combining machine learning with symbolic or logical reasoning. We are applying these methods to Math, Physics, and other practical applications. Concurrently, we are working towards solver-based testing, analysis, and verification (TAV) methods aimed at making neural networks reliable and trust worthy. Some of the projects we are working on include:
 
-- Logic Guided Machine Learning (LGML)
-- xAI-GAN: Explainable AI Guided Generative Adversarial Networks
-- Discovering Symmetry Invariants and Conserved Quantities by Interpreting Siamese Neural Networks
-- LGGA: Logic Guided Genetic Algorithms
+- [Logic Guided Machine Learning(LGML)](https://github.com/ml-logic-seminar/ml_logic_website/blob/gh-pages/lgml.md){:target="_blank"}
+- [xAI-GAN: Enhancing Generative Adversarial Networks via Explainable AI Systems](https://github.com/ml-logic-seminar/ml_logic_website/blob/gh-pages/xAIGAN.md){:target="_blank"}
+- [Discovering Symmetry Invariants and Conserved Quantities by Interpreting Siamese Neural Networks](https://github.com/ml-logic-seminar/ml_logic_website/blob/gh-pages/siamese.md){:target="_blank"}
+- [Logic Guided Genetic Algorithms (LGGA)](https://dhananjayashok.github.io/LGGA/){:target="_blank"}
 
 Click [here](https://sites.google.com/a/gsd.uwaterloo.ca/maplesat/){:target="_blank"} to see how machine learning can help logical reasoning.
