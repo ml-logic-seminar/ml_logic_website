@@ -1,8 +1,11 @@
-# Principal Investigator
+# People
+
+
+## Principal Investigator
 - [Vijay Ganesh](https://ece.uwaterloo.ca/~vganesh/){:target="_blank"}, University of Waterloo
 
 
-# Researchers
+## Researchers
 - [Dhananjay Ashok](https://dhananjay-ashok.webnode.com/){:target="_blank"}, University of Toronto
 - [Joseph Scott](https://cs.uwaterloo.ca/~j29scott/){:target="_blank"}, University of Waterloo
 - [Laura Graves](http://www.lauragraves.ca/){:target="_blank"}Laura Graves, University of Waterloo
