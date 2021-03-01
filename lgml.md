@@ -9,3 +9,5 @@ Logic Guided Machine Learning (LGML) is a new approach that combines an ML model
 1. [Publication](https://cs.uwaterloo.ca/~j29scott/pdfs/aaai20.pdf){:target="_blank"}
 2. [Slides](https://drive.google.com/file/d/1ZAYQ_aW3GeN4cgBzookLmx-9wgasvEbv/view){:target="_blank"}
 3. [Code](https://github.com/j29scott/LGML-Public){:target="_blank"}
+
+<img alt="LGML" src="{{site.baseurl}}/assets/img/lgml.jpg">
