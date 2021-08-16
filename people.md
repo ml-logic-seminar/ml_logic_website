@@ -8,7 +8,7 @@
 ## Researchers
 - [Dhananjay Ashok](https://dhananjay-ashok.webnode.com/){:target="_blank"}, University of Toronto
 - [Joseph Scott](https://cs.uwaterloo.ca/~j29scott/){:target="_blank"}, University of Waterloo
-- [Laura Graves](http://www.lauragraves.ca/){:target="_blank"}Laura Graves, University of Waterloo
+- [Laura Graves](http://www.lauragraves.ca/){:target="_blank"}, University of Waterloo
 - [Maysum Panju](https://uwaterloo.ca/statistics-and-actuarial-science/about/people/mhpanju){:target="_blank"}, University of Waterloo
 - [Sebastien Wetzel](https://perimeterinstitute.ca/people/sebastian-wetzel){:target="_blank"}, Perimeter Institute 
 - [Soham Mukherjee](https://perimeterinstitute.ca/people/soham-mukherjee){:target="_blank"}, University of Waterloo
