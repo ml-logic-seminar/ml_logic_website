@@ -2,11 +2,11 @@
 
 
 ## MapleSAT
-[MapleSAT](https://sites.google.com/a/gsd.uwaterloo.ca/maplesat/){:target="_blank"} series of SAT solvers is a family of conflict-driven clause-learning SAT solvers outfitted with machine learning-based heuristics. 
+[MapleSAT](https://maplesat.github.io/){:target="_blank"} series of SAT solvers is a family of conflict-driven clause-learning SAT solvers outfitted with machine learning-based heuristics. 
 
 
 ## Z3 String Solver
-[Z3 String solver](https://sites.google.com/site/z3strsolver/getting-started){:target="_blank"} is a constraint solver for the quantifier-free theory of string equations, the regular-expression membership predicates, and linear arithmetic over the length functions. Z3 string solver is implemented as a string theory plug-in of the powerful Z3 SMT solver.
+[Z3 String solver](https://z3string.github.io/){:target="_blank"} is a constraint solver for the quantifier-free theory of string equations, the regular-expression membership predicates, and linear arithmetic over the length functions. Z3 string solver is implemented as a string theory plug-in of the powerful Z3 SMT solver.
 
 
 ## MapleCrypt
