@@ -2,11 +2,11 @@
 
 
 ## Overview
-Our work at the intersection of logic + machine learning looks to leverage advances in the field of formal logic to improve training or testing of machine learning.
+Our work at the intersection of logic + machine learning looks to leverage advances in the field of formal logic to improve the training or testing of machine learning models.
 
 
 ## Projects
-Currently, we have three projects that leverage logic to machine learning:
+Currently, we have the following projects that leverage logic to machine learning:
 1. [Logic Guided Machine Learning(LGML)](https://ml-logic-seminar.github.io/ml_logic_website/lgml.html){:target="_blank"}
 2. [xAI-GAN: Enhancing Generative Adversarial Networks via Explainable AI Systems](https://ml-logic-seminar.github.io/ml_logic_website/xAIGAN.html){:target="_blank"}
 3. [Logic Guided Genetic Algorithms (LGGA)](https://dhananjayashok.github.io/LGGA/){:target="_blank"}
