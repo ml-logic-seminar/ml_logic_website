@@ -1,5 +1,11 @@
 # Publications
 
+- Graves, Laura 2021. "Novel Neural Network Repair Methods for Data Privacy and Individual Fairness." In UWSpace, http://hdl.handle.net/10012/17181 MASc thesis, University of Waterloo, Waterloo. [[pdf](http://hdl.handle.net/10012/17181){:target="_blank"}]
+
+
+- Nagisetty, Vineel 2021. "Domain Knowledge Guided Testing and Training of Neural Networks." In UWSpace, http://hdl.handle.net/10012/17181 MASc thesis, University of Waterloo, Waterloo. [[pdf](http://hdl.handle.net/10012/17181){:target="_blank"}]
+
+
 - Graves, Laura, Vineel Nagisetty, and Vijay Ganesh. "Amnesiac Machine Learning." In Proceedings of the AAAI Conference on Artificial Intelligence, vol. 35, no. 13, pp. 11516-11524. 2021. [[pdf](https://arxiv.org/abs/2010.10981){:target="_blank"}]
 
 
