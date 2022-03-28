@@ -9,5 +9,7 @@ Generative Adversarial Networks (GANs) are a revolutionary class of Deep Neural 
 1. [Publication](https://arxiv.org/abs/2002.10438){:target="_blank"}
 2. [Slides](https://docs.google.com/presentation/d/1JOq9JgHxVA6aa2LVUtXaLrRE9i22HUVRGMpzA9JDixs/edit#slide=id.g82ec8bce15_0_177){:target="_blank"}
 3. [Code](https://github.com/vin-nag/XAI_GAN){:target="_blank"}
+4. [![Video](https://img.youtube.com/vi/j-NxTvEDexg?t=9809/0.jpg)](https://youtu.be/j-NxTvEDexg?t=9809)
+
 
 <img alt="xAIGAN" src="{{site.baseurl}}/assets/img/xAI.png">
