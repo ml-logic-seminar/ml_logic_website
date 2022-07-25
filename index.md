@@ -3,6 +3,8 @@
 - ML-based heuristics for solvers and provers
 - ML for math and physics
 - Logic + Machine Learning
+- NeuroSymbolic AI
+- AI-driven Scientific Discovery
 
 Some of the projects we are working on include:
 1. [Logic Guided Machine Learning (LGML)](https://ml-logic-seminar.github.io/ml_logic_website/lgml.html){:target="_blank"}
