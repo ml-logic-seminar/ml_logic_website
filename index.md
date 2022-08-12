@@ -14,6 +14,7 @@ Some of the projects we are working on include:
 5. [Logic Guided Genetic Algorithms (LGGA)](https://dhananjayashok.github.io/LGGA/){:target="_blank"}
 6. [ML for Sequential Solvers](https://maplesat.github.io/){:target="_blank"}
 7. [ML for Parallel Solvers](https://sites.google.com/view/crypto-sat/home?authuser=0){:target="_blank"}
+8. [Solver + Gradient Descent Training of Deep Neural Networks](https://dhananjayashok.github.io/Hybrid-Solver-NN-Training/){:target="_blank"}
 
 
 ## Waterloo ML + Logic Online Colloquium
