@@ -11,6 +11,7 @@ Currently, we have the following projects that leverage logic to machine learnin
 2. [xAI-GAN: Enhancing Generative Adversarial Networks via Explainable AI Systems](https://ml-logic-seminar.github.io/ml_logic_website/xAIGAN.html){:target="_blank"}
 3. [Logic Guided Genetic Algorithms (LGGA)](https://dhananjayashok.github.io/LGGA/){:target="_blank"}
 4. [Amnesiac Machine Learning](https://ml-logic-seminar.github.io/ml_logic_website/amnesiac.html){:target="_blank"}
+5. [Solver + Gradient Descent Training of Deep Neural Networks](https://dhananjayashok.github.io/Hybrid-Solver-NN-Training/){:target="_blank"}
 
 
 ## Potential Applications
