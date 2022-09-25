@@ -1,8 +1,7 @@
-# Overview of Research
+# Overview of Research in ML + Logic
 - Testing, Analysis, Verification, Security and Privacy (TAVSP) of machine learning (ML) systems
 - ML-based heuristics for solvers and provers
-- ML for math and physics
-- Logic + Machine Learning
+- ML for [math](https://uwaterloo.ca/mathcheck/) and physics
 - NeuroSymbolic AI
 - AI-driven Scientific Discovery
 
