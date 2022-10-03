@@ -19,7 +19,7 @@
     - [Amnesiac Machine Learning](https://ml-logic-seminar.github.io/ml_logic_website/amnesiac.html){:target="_blank"}
 
 5. ML Based Fuzzer
-    - [BanditFuzz](https://github.com/BanditFuzz/BanditFuzz_Public){:target="_blank"}
+    - [BanditFuzz](https://link.springer.com/chapter/10.1007/978-3-030-90870-6_6){:target="_blank"}
 
 ## Waterloo ML + Logic Online Colloquium
 We are currently organizing the Waterloo Machine Learning (ML) + Logic Online Colloquium which is sponsored by the [Waterloo Artificial Intelligence Institute](https://uwaterloo.ca/artificial-intelligence-institute/){:target="_blank"} and the [Waterloo Cybersecurity and Privacy Institute](https://uwaterloo.ca/cybersecurity-privacy-institute/){:target="_blank"}. As part of this, we host frequent talks by top researchers from around the world via WebEx on research topics listed above. Please visit our [website](https://ml-logic-seminar.github.io/){:target="_blank"} for more information.
