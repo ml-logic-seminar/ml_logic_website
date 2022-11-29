@@ -6,6 +6,7 @@
 2. ML-based heuristics for solvers and provers
     - [ML for Sequential Solvers](https://maplesat.github.io/){:target="_blank"}
     - [ML for Parallel Solvers](https://sites.google.com/view/crypto-sat/home?authuser=0){:target="_blank"}
+    - [ML-guided Algorithm Selection](https://machsmt.github.io/){:target="_blank"}
 
 3. ML + Logic for Math and Physics, AI-driven Scientific Discovery
     - [MathCheck](https://uwaterloo.ca/mathcheck/){:target="_blank"}
