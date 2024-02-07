@@ -10,6 +10,11 @@ Piyush Jha, Joseph Scott, Jaya Sriram Ganeshna, Mudit Singh, and Vijay Ganesh
 Accepted at the 38th AAAI Conference on Artificial Intelligence (**AAAI 2024**), Vancouver, Canada, Feb 20-27, 2024  
 ([code](https://github.com/piyush-J/BERTRLFuzzer))
 
+- A SAT + Computer Algebra System Verification of the Ramsey Problem R(3, 8) 
+Conor Duggan, Zhengyu Li, Curtis Bright, and Vijay Ganesh
+Accepted at the 38th AAAI Conference on Artificial Intelligence (**AAAI 2024**), Vancouver, Canada, Feb 20-27, 2024
+([code](https://github.com/BrianLi009/MathCheck))
+
 - [Grounding Neural Inference with Satisfiability Modulo Theories](https://openreview.net/pdf?id=r8snfquzs3)  
 Zifan Wang, Saranya Vijayakumar, Kaiji Lu, Vijay Ganesh, Somesh Jha, and Matt Fredrikson  
 Accepted at the 37th Annual Conference on Neural Information Processing Systems (**NeurIPS 2023**), New Orleans, Louisiana, USA, Dec 10-16, 2023  
