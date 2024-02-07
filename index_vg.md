@@ -11,9 +11,10 @@
 2. Logic for ML
     - [AI for scientific discovery](https://ml-logic-seminar.github.io/ml_logic_website/scientific_discovery.html){:target="_blank"}
     - [Neurosymbolic AI](https://ml-logic-seminar.github.io/ml_logic_website/neurosymbolic.html){:target="_blank"}
-    - [Testing, Analysis, Verification, Security and Privacy (TAVSP)](https://ml-logic-seminar.github.io/ml_logic_website/tavsp.html){:target="_blank"}
 
-3. Complexity Theory of Solvers and Formal Methods
+3. [Testing, Analysis, Verification, Security and Privacy (TAVSP)](https://ml-logic-seminar.github.io/ml_logic_website/tavsp.html){:target="_blank"}
+
+4. Complexity Theory of Solvers and Formal Methods
     - [Proof complexity-theoretic analysis of SAT/SMT solvers and formal methods](https://satsolvercomplexity.github.io/){:target="_blank"}
 
 ## Combinations of Reasoning and Learning via Reinforcement Learning @ GaTech
