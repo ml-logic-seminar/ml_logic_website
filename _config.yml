@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
 gem "github-pages", group: :jekyll_plugins
 title: Logic + Machine Learning
-description: Research at the intersection of logic and machine learning 
+# description: Research at the intersection of logic and machine learning 
 show_downloads: false
