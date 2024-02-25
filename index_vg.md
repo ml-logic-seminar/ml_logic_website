@@ -14,9 +14,14 @@
     - [AI for Math](https://ml-logic-seminar.github.io/ml_logic_website/math.html){:target="_blank"}
     - [Neurosymbolic AI](https://ml-logic-seminar.github.io/ml_logic_website/neurosymbolic.html){:target="_blank"}
 
-3. [Testing, Analysis, Verification, Security and Privacy (TAVSP)](https://ml-logic-seminar.github.io/ml_logic_website/tavsp.html){:target="_blank"}
+3. Software Engineering and Security
+    - RL-guided performance fuzzer for SMT: [BanditFuzz](https://banditfuzz.github.io){:target="_blank"}
+    - LLM+RL fuzzer: [BertRLFuzzer](https://arxiv.org/abs/2305.12534){:target="_blank"}
+    - Performance testing of Neural Network Verifiers: [Pierce](https://piercefuzzer.github.io/){:target="_blank"}
+    - Neural Network Verication: CGDTest ([Talk](https://simons.berkeley.edu/talks/constrained-gradient-descent-algorithm-testing-neural-networks){:target="_blank"}, [Paper](https://arxiv.org/abs/2304.01826){:target="_blank"})
+    - Smart Contracts: [Gas Gauge and MPro](https://smart-contract-analysis.github.io/website/){:target="_blank"} 
 
-4. Complexity Theory of Solvers and Formal Methods
+5. Complexity Theory of Solvers and Formal Methods
     - [Proof complexity-theoretic analysis of SAT/SMT solvers and formal methods](https://satsolvercomplexity.github.io/){:target="_blank"}
 
 ## Combinations of Reasoning and Learning via Reinforcement Learning @ GaTech
