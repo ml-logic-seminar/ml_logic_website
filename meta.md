@@ -6,5 +6,3 @@
 0. [MachSMT](https://machsmt.github.io/){:target="_blank"}  
 **TL;DR:** MachSMT is a tool that uses machine learning to predict the run time of SMT solvers for a given formula, enabling efficient solver selection. Extensive evaluations show it frequently outperforms competition winners and improves solver configurations like cvc5.
 
-0. [AlphaSMT](https://arxiv.org/pdf/2401.17159.pdf){:target="_blank"}  
-**TL;DR:** Customizable SMT solvers like Z3 boost performance but crafting effective strategies is tough. Our paper introduces Z3alpha, which leverages Monte Carlo Tree Search (MCTS) to automate strategy synthesis, exploring the space efficiently for better performance at lower costs.
