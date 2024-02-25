@@ -11,7 +11,7 @@
 
 2. Logic for ML
     - [AI for scientific discovery](https://ml-logic-seminar.github.io/ml_logic_website/scientific_discovery.html){:target="_blank"}
-    - [AI for Math](https://ml-logic-seminar.github.io/ml_logic_website/math.html){:target="_blank"}
+    - [AI for math](https://ml-logic-seminar.github.io/ml_logic_website/math.html){:target="_blank"}
     - [Neurosymbolic AI](https://ml-logic-seminar.github.io/ml_logic_website/neurosymbolic.html){:target="_blank"}
 
 3. Software Engineering and Security
