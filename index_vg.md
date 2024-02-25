@@ -3,6 +3,7 @@
 1. ML for Logic
     - [MapleSAT](https://maplesat.github.io/){:target="_blank"}
     - [AlphaMapleSAT](https://arxiv.org/pdf/2401.13770.pdf){:target="_blank"}
+    - [AlphaSMT](https://arxiv.org/pdf/2401.17159.pdf){:target="_blank"}
     - [Meta-solving](https://ml-logic-seminar.github.io/ml_logic_website/meta.html){:target="_blank"}
     - Other SAT/SMT projects
         - [Z3str4 string, arithmetic, and regular expression solver](https://z3string.github.io/){:target="_blank"}
