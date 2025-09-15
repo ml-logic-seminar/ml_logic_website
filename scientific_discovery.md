@@ -1,10 +1,35 @@
 # AI for scientific discovery
 
+## [Reinforcement Learning via Symbolic Feedback (RLSF) – Chemistry](https://rlsf-llm.github.io/){:target="_blank"}
 
-## Overview
-Physics is fundamentally about identifying patterns in data and codifying them in mathematical language. A machine learning approach to achieve the same goal is called [symbolic regression](https://en.wikipedia.org/wiki/Symbolic_regression){:target="_blank"}. While symbolic regression has been around for a long time, there has been some recent efforts to applying it to data to identify patterns and convert it into mathematical expressions. We propose a variation of symbolic regression, wherein, we combine a neural network-based symbolic regression tool with a mathematical reasoning solver in a corrective feedback look (a method we refer to as Logic Guided Machine Learning) and apply it to data to learn mathematical functions and physics equations. We have also done some work on pure symbolic regression (based on neural networks) to learn several symmetries and conserved quantities in physics. See publications below:
+**TL;DR:**  
+RLSF introduces a new way to fine-tune Large Language Models (LLMs) for **molecular design and synthesis** by combining reinforcement learning with **token-level symbolic feedback** from cheminformatics tools such as **RDKit**
+Instead of a single success/failure score, RDKit provides **fine-grained chemical error signals** (e.g., valence violations, missing functional groups, or conservation-law breaks) for every token in a generated SMILES string. These signals drive a Proximal Policy Optimization (PPO) loop to iteratively improve the LLM.
 
-## Projects
-2. [Discovering Laws of Physics via Interpretable Siamese Neural Networks](https://ml-logic-seminar.github.io/ml_logic_website/siamese.html){:target="_blank"}
-3. [Logic Guided Genetic Algorithms (LGGA)](https://dhananjayashok.github.io/LGGA/){:target="_blank"}
-4. [Logic Guided Machine Learning (LGML)](https://ml-logic-seminar.github.io/ml_logic_website/lgml.html){:target="_blank"}
+**Key Chemistry Tasks and Gains**:
+* **Molecule generation:** +8 – 14 % exact match and up to +58 % validity over supervised fine-tuning; outperforms GPT-4 despite using ≈1000× fewer parameters.  
+* **Forward synthesis:** +12 % exact match and higher product validity by enforcing conservation of atoms and correct reaction syntax.  
+* **Retrosynthesis:** +12 - 34 % exact match improvements by leveraging RDKit to back-check precursors and penalize chemically impossible suggestions.
+
+**Scientific Impact and Next Steps**  
+RLSF demonstrates that *symbolically guided reinforcement learning* can dramatically boost the **accuracy and chemical validity** of small open-source models.  
+The project team is **extending these techniques to material science and discovering physics theories**, using domain-specific symbolic engines to drive discovery in crystal design, band-gap prediction, and neutrino mass theories.
+
+## [Discovering Laws of Physics via Interpretable Siamese Neural Networks](https://ml-logic-seminar.github.io/ml_logic_website/siamese.html){:target="_blank"}
+
+**TL;DR:**  
+They develop **interpretable Siamese Neural Networks** that detect similarity among data points in theoretical physics (e.g. events in special relativity, electromagnetic field transformations, particle motion in central potentials). In training to cluster similar instances, the model *also* learns symmetry invariants and conserved quantities *without prior domain knowledge*. 
+
+---
+
+## [Logic Guided Genetic Algorithms (LGGA)](https://dhananjayashok.github.io/LGGA/){:target="_blank"}
+
+**TL;DR:**  
+LGGA augments symbolic regression (SR) with *auxiliary truths* (domain‐specific known facts) to guide equation discovery. It integrates these truths into scoring (loss) functions and data augmentation to make SR more data efficient. Compared to standard SR tools, LGGA can improve data efficiency by up to ~62% in experiments. 
+
+---
+
+## [Logic Guided Machine Learning (LGML)](https://ml-logic-seminar.github.io/ml_logic_website/lgml.html){:target="_blank"}
+
+**TL;DR:**  
+LGML is a two‐phase framework combining a learning model (to propose symbolic expressions from data) and a logic solver (to verify consistency of these expressions against known auxiliary truths). When the logic phase finds inconsistencies, it provides counterexamples back to the learning phase, in a feedback loop. It can learn expressions for things like the Pythagorean theorem and sine function, with many orders of magnitude better data efficiency than standard neural network approaches. 
