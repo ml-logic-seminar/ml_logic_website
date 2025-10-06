@@ -15,6 +15,15 @@ Instead of a single success/failure score, RDKit provides **fine-grained chemica
 RLSF demonstrates that *symbolically guided reinforcement learning* can dramatically boost the **accuracy and chemical validity** of small open-source models.  
 The project team is **extending these techniques to material science and discovering physics theories**, using domain-specific symbolic engines to drive discovery in crystal design, band-gap prediction, and neutrino mass theories.
 
+---
+
+## [Symbolic Density Estimation Through Symbolic Regression: A Decompositional Approach](https://creatixchu.github.io/symbolic-density-estimation/){:target="_blank"}
+
+**TL;DR:**  
+We propose the **AI-Kolmogorov Framework**, a decompositional approach that leverages symbolic regression for symbolic density estimation. This method aims to discover interpretable density functions from data, bridging symbolic regression with density estimation for scientific discovery. Our four-stage pipeline decomposes high-dimensional problems through clustering and structure learning, then applies symbolic regression to marginal and conditional distributions. We demonstrate the framework's effectiveness on synthetic mixture models and multivariate distributions, showing it can rediscover underlying distributions while producing interpretable analytic models.
+
+---
+
 ## [Discovering Laws of Physics via Interpretable Siamese Neural Networks](https://ml-logic-seminar.github.io/ml_logic_website/siamese.html){:target="_blank"}
 
 **TL;DR:**  
