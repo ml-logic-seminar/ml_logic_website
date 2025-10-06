@@ -6,11 +6,6 @@
 RLSF introduces a new way to fine-tune Large Language Models (LLMs) for **molecular design and synthesis** by combining reinforcement learning with **token-level symbolic feedback** from cheminformatics tools such as **RDKit**
 Instead of a single success/failure score, RDKit provides **fine-grained chemical error signals** (e.g., valence violations, missing functional groups, or conservation-law breaks) for every token in a generated SMILES string. These signals drive a Proximal Policy Optimization (PPO) loop to iteratively improve the LLM.
 
-**Key Chemistry Tasks and Gains**:
-* **Molecule generation:** +8 – 14 % exact match and up to +58 % validity over supervised fine-tuning; outperforms GPT-4 despite using ≈1000× fewer parameters.  
-* **Forward synthesis:** +12 % exact match and higher product validity by enforcing conservation of atoms and correct reaction syntax.  
-* **Retrosynthesis:** +12 - 34 % exact match improvements by leveraging RDKit to back-check precursors and penalize chemically impossible suggestions.
-
 **Scientific Impact and Next Steps**  
 RLSF demonstrates that *symbolically guided reinforcement learning* can dramatically boost the **accuracy and chemical validity** of small open-source models.  
 The project team is **extending these techniques to material science and discovering physics theories**, using domain-specific symbolic engines to drive discovery in crystal design, band-gap prediction, and neutrino mass theories.
