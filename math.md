@@ -7,7 +7,7 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
   <!-- Prof. Vijay Ganesh -->
   <a href="https://vganesh1.github.io/" target="_blank" 
      style="background-color: #1b6ec2; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 1rem;">
-    Prof. Vijay Ganesh's Homepage
+    Vijay Ganesh's Homepage
   </a>
 
   <!-- Neuro-Symbolic / Logic for ML Projects Dropdown -->
@@ -120,11 +120,11 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
     <p style="margin: 0; font-size: 0.9rem;">
       <strong>Authors:</strong>
       <a href="https://www.curtisbright.com/" target="_blank">Curtis Bright</a><sup>1</sup>, 
-      <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>1</sup>,
       <a href="https://www.linkedin.com/in/albertheinle/" target="_blank">Albert Heinle</a><sup>1</sup>, 
       <a href="https://web.wlu.ca/science/physcomp/ikotsireas/" target="_blank">Ilias Kotsireas</a><sup>2</sup>,
       <a href="https://saeednj.github.io/" target="_blank">Saeed Nejati</a><sup>1</sup>, 
-      <a href="https://uwaterloo.ca/electrical-computer-engineering/profile/k2czarne" target="_blank">Krzysztof Czarnecki</a><sup>1</sup>
+      <a href="https://uwaterloo.ca/electrical-computer-engineering/profile/k2czarne" target="_blank">Krzysztof Czarnecki</a><sup>1</sup>,
+      <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>1</sup>
     </p>
     <p style="margin: 0; font-size: 0.9rem;">
       <strong>Affiliations:</strong>
