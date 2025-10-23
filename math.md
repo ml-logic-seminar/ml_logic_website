@@ -1,19 +1,23 @@
-<div style="margin-bottom: 30px; display: flex; gap: 20px; align-items: center; justify-content: space-between;">
-  <h1 style="margin: 0; font-size: 1.5rem;">🧮 AI for Mathematics</h1>
+# 🧮 AI for Mathematics
 
-  <div style="display: flex; gap: 10px;">
-    <a href="https://vganesh1.github.io/" target="_blank"
-       style="background-color: #1b6ec2; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 1rem;">
-      Prof. Vijay Ganesh's Homepage
-    </a>
-    <div class="dropdown" style="position: relative; display: inline-block;">
-      <button style="background-color: #1b6ec2; color: white; padding: 8px 16px; font-size: 1rem; border: none; border-radius: 5px; cursor: pointer;">
-        Other NeuroSymbolic AI Projects
-      </button>
-      <div class="dropdown-content" style="display: none; position: absolute; background-color: white; min-width: 240px; box-shadow: 0px 8px 16px rgba(0,0,0,0.2); border-radius: 5px; z-index: 1;">
-        <a href="https://ml-logic-seminar.github.io/ml_logic_website/scientific_discovery.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">Neurosymbolic AI for Scientific Discovery</a>
-        <a href="https://ml-logic-seminar.github.io/ml_logic_website/neurosymbolic.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">NeuroSymbolic AI for Code</a>
-      </div>
+This page highlights ongoing and past research efforts connecting **AI, formal methods, and mathematical reasoning**.
+
+<!-- Top Navigation -->
+<div style="margin-bottom: 30px; display: flex; gap: 20px; align-items: center;">
+  <!-- Prof. Vijay Ganesh -->
+  <a href="https://vganesh1.github.io/" target="_blank" 
+     style="background-color: #1b6ec2; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 1rem;">
+    Prof. Vijay Ganesh's Homepage
+  </a>
+
+  <!-- Neuro-Symbolic / Logic for ML Projects Dropdown -->
+  <div class="dropdown" style="position: relative; display: inline-block;">
+    <button style="background-color: #1b6ec2; color: white; padding: 8px 16px; font-size: 1rem; border: none; border-radius: 5px; cursor: pointer;">
+      Other NeuroSymbolic AI Projects
+    </button>
+    <div class="dropdown-content" style="display: none; position: absolute; background-color: white; min-width: 240px; box-shadow: 0px 8px 16px rgba(0,0,0,0.2); border-radius: 5px; z-index: 1;">
+      <a href="https://ml-logic-seminar.github.io/ml_logic_website/scientific_discovery.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">Neurosymbolic AI for Scientific Discovery</a>
+      <a href="https://ml-logic-seminar.github.io/ml_logic_website/neurosymbolic.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">NeuroSymbolic AI for Code</a>
     </div>
   </div>
 </div>
@@ -30,10 +34,6 @@
     }
   });
 </script>
-
-# 🧮 AI for Mathematics
-
-This page highlights ongoing and past research efforts connecting **AI, formal methods, and mathematical reasoning**.
 
 ---
 
