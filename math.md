@@ -45,7 +45,7 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
       </a> 
       (2025)
     </h2>
-    <p style="margin: 0;">
+    <p style="margin: 0; font-size: 0.9rem;">
       <strong>Authors:</strong>
       <a href="https://sites.google.com/site/jprithwish/" target="_blank">Prithwish Jana</a><sup>1</sup>, 
       <a href="https://www.linkedin.com/in/kaan-kale-209843164/" target="_blank">Kaan Kale</a><sup>1</sup>, 
@@ -54,7 +54,8 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
       <a href="https://ece.gatech.edu/directory/sriram-vishwanath" target="_blank">Sriram Vishwanath</a><sup>1</sup>, 
       <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>1</sup>
     </p>
-    <p style="margin: 0;">
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Affiliations:</strong>
       <sup>1</sup>Georgia Institute of Technology, USA &nbsp;|&nbsp;
       <sup>2</sup>Bogazici University, Turkiye
     </p>
@@ -82,12 +83,13 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
       </a> 
       (2025)
     </h2>
-    <p style="margin: 0;">
+    <p style="margin: 0; font-size: 0.9rem;">
       <strong>Authors:</strong>
       <a href="https://ayushkhaitanrutgers.github.io/" target="_blank">Ayush Khaitan</a><sup>1</sup>, 
       <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>2</sup>
     </p>
-    <p style="margin: 0;">
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Affiliations:</strong>
       <sup>1</sup>Rutgers University, USA &nbsp;|&nbsp;
       <sup>2</sup>Georgia Institute of Technology, USA
     </p>
@@ -115,7 +117,7 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
       </a> 
       (2016)
     </h2>
-    <p style="margin: 0;">
+    <p style="margin: 0; font-size: 0.9rem;">
       <strong>Authors:</strong>
       <a href="https://www.curtisbright.com/" target="_blank">Curtis Bright</a><sup>1</sup>, 
       <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>1</sup>,
@@ -124,7 +126,8 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
       <a href="https://saeednj.github.io/" target="_blank">Saeed Nejati</a><sup>1</sup>, 
       <a href="https://uwaterloo.ca/electrical-computer-engineering/profile/k2czarne" target="_blank">Krzysztof Czarnecki</a><sup>1</sup>
     </p>
-    <p style="margin: 0;">
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Affiliations:</strong>
       <sup>1</sup>University of Waterloo, Canada &nbsp;|&nbsp;
       <sup>2</sup>Wilfred Laurier University, Canada
     </p>
