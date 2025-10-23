@@ -1,19 +1,19 @@
-<!-- Top Navigation -->
-<div style="margin-bottom: 30px; display: flex; gap: 20px; align-items: center;">
-  <!-- Prof. Vijay Ganesh -->
-  <a href="https://vganesh1.github.io/" target="_blank" 
-     style="background-color: #1b6ec2; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 1rem;">
-    Prof. Vijay Ganesh's Homepage
-  </a>
+<div style="margin-bottom: 30px; display: flex; gap: 20px; align-items: center; justify-content: space-between;">
+  <h1 style="margin: 0; font-size: 1.5rem;">🧮 AI for Mathematics</h1>
 
-  <!-- Neuro-Symbolic / Logic for ML Projects Dropdown -->
-  <div class="dropdown" style="position: relative; display: inline-block;">
-    <button style="background-color: #1b6ec2; color: white; padding: 8px 16px; font-size: 1rem; border: none; border-radius: 5px; cursor: pointer;">
-      Other NeuroSymbolic AI Projects
-    </button>
-    <div class="dropdown-content" style="display: none; position: absolute; background-color: white; min-width: 240px; box-shadow: 0px 8px 16px rgba(0,0,0,0.2); border-radius: 5px; z-index: 1;">
-      <a href="https://ml-logic-seminar.github.io/ml_logic_website/scientific_discovery.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">Neurosymbolic AI for Scientific Discovery</a>
-      <a href="https://ml-logic-seminar.github.io/ml_logic_website/neurosymbolic.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">NeuroSymbolic AI for Code</a>
+  <div style="display: flex; gap: 10px;">
+    <a href="https://vganesh1.github.io/" target="_blank"
+       style="background-color: #1b6ec2; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 1rem;">
+      Prof. Vijay Ganesh's Homepage
+    </a>
+    <div class="dropdown" style="position: relative; display: inline-block;">
+      <button style="background-color: #1b6ec2; color: white; padding: 8px 16px; font-size: 1rem; border: none; border-radius: 5px; cursor: pointer;">
+        Other NeuroSymbolic AI Projects
+      </button>
+      <div class="dropdown-content" style="display: none; position: absolute; background-color: white; min-width: 240px; box-shadow: 0px 8px 16px rgba(0,0,0,0.2); border-radius: 5px; z-index: 1;">
+        <a href="https://ml-logic-seminar.github.io/ml_logic_website/scientific_discovery.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">Neurosymbolic AI for Scientific Discovery</a>
+        <a href="https://ml-logic-seminar.github.io/ml_logic_website/neurosymbolic.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">NeuroSymbolic AI for Code</a>
+      </div>
     </div>
   </div>
 </div>
@@ -45,7 +45,7 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
       </a> 
       (2025)
     </h2>
-    <p>
+    <p style="margin: 0;">
       <strong>Authors:</strong>
       <a href="https://sites.google.com/site/jprithwish/" target="_blank">Prithwish Jana</a><sup>1</sup>, 
       <a href="https://www.linkedin.com/in/kaan-kale-209843164/" target="_blank">Kaan Kale</a><sup>1</sup>, 
@@ -54,7 +54,7 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
       <a href="https://ece.gatech.edu/directory/sriram-vishwanath" target="_blank">Sriram Vishwanath</a><sup>1</sup>, 
       <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>1</sup>
     </p>
-    <p>
+    <p style="margin: 0;">
       <sup>1</sup>Georgia Institute of Technology, USA &nbsp;|&nbsp;
       <sup>2</sup>Bogazici University, Turkiye
     </p>
@@ -82,12 +82,12 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
       </a> 
       (2025)
     </h2>
-    <p>
+    <p style="margin: 0;">
       <strong>Authors:</strong>
       <a href="https://ayushkhaitanrutgers.github.io/" target="_blank">Ayush Khaitan</a><sup>1</sup>, 
       <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>2</sup>
     </p>
-    <p>
+    <p style="margin: 0;">
       <sup>1</sup>Rutgers University, USA &nbsp;|&nbsp;
       <sup>2</sup>Georgia Institute of Technology, USA
     </p>
@@ -115,7 +115,7 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
       </a> 
       (2016)
     </h2>
-    <p>
+    <p style="margin: 0;">
       <strong>Authors:</strong>
       <a href="https://www.curtisbright.com/" target="_blank">Curtis Bright</a><sup>1</sup>, 
       <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>1</sup>,
@@ -124,7 +124,7 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
       <a href="https://saeednj.github.io/" target="_blank">Saeed Nejati</a><sup>1</sup>, 
       <a href="https://uwaterloo.ca/electrical-computer-engineering/profile/k2czarne" target="_blank">Krzysztof Czarnecki</a><sup>1</sup>
     </p>
-    <p>
+    <p style="margin: 0;">
       <sup>1</sup>University of Waterloo, Canada &nbsp;|&nbsp;
       <sup>2</sup>Wilfred Laurier University, Canada
     </p>
