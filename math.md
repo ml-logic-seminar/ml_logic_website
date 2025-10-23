@@ -11,7 +11,8 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
 ---
 
 <div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
-  <img src="/assets/img/proofbridge_pipeline.png" alt="ProofBridge" style="width: 100%; height: auto; object-fit: cover; border-radius: 10px;">
+  <img src="/assets/img/proofbridge_pipeline.png" alt="ProofBridge" 
+       style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 10px; display: block; margin: 0 auto;">
   <div>
     <h3>🔹 <a href="https://arxiv.org/pdf/2510.15681" target="_blank">ProofBridge: Auto-Formalization of Natural Language Proofs in Lean via Joint Embeddings</a></h3>
     <p><em>Authors:</em> Prithwish Jana, Kaan Kale, Ahmet Ege Tanriverdi, Cruise Song, Sriram Vishwanath, Vijay Ganesh</p>
@@ -28,7 +29,8 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
 ---
 
 <div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
-  <img src="/assets/img/oforge_pipeline.png" alt="O-Forge" style="width: 100%; height: auto; object-fit: cover; border-radius: 10px;">
+  <img src="/assets/img/oforge_pipeline.png" alt="O-Forge" 
+       style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 10px; display: block; margin: 0 auto;">
   <div>
     <h3>🔹 <a href="https://arxiv.org/pdf/2510.12350" target="_blank">O-Forge: An LLM + Computer Algebra Framework for Asymptotic Analysis</a></h3>
     <p><em>Authors:</em> Ayush Khaitan, Vijay Ganesh</p>
@@ -45,7 +47,8 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
 ---
 
 <div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
-  <img src="/assets/img/mathcheck2_pipeline.png" alt="MathCheck2" style="width: 100%; height: auto; object-fit: cover; border-radius: 10px;">
+  <img src="/assets/img/mathcheck2_pipeline.png" alt="MathCheck2" 
+       style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 10px; display: block; margin: 0 auto;">
   <div>
     <h3>🔹 <a href="https://cs.uwaterloo.ca/~cbright/reports/synasc-mathcheck2.pdf" target="_blank">MathCheck2: A SAT+CAS Verifier for Combinatorial Conjectures</a></h3>
     <p><em>Authors:</em> Curtis Bright, Vijay Ganesh, Albert Heinle, Ilias Kotsireas, Saeed Nejati, Krzysztof Czarnecki</p>
@@ -58,6 +61,3 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
     </p>
   </div>
 </div>
-
-
----
