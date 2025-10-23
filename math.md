@@ -1,3 +1,36 @@
+<!-- Top Navigation -->
+<div style="margin-bottom: 30px; display: flex; gap: 20px; align-items: center;">
+  <!-- Prof. Vijay Ganesh -->
+  <a href="https://vganesh1.github.io/" target="_blank" 
+     style="background-color: #1b6ec2; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 1rem;">
+    Prof. Vijay Ganesh's Homepage
+  </a>
+
+  <!-- Neuro-Symbolic / Logic for ML Projects Dropdown -->
+  <div class="dropdown" style="position: relative; display: inline-block;">
+    <button style="background-color: #1b6ec2; color: white; padding: 8px 16px; font-size: 1rem; border: none; border-radius: 5px; cursor: pointer;">
+      Other NeuroSymbolic AI Projects
+    </button>
+    <div class="dropdown-content" style="display: none; position: absolute; background-color: white; min-width: 240px; box-shadow: 0px 8px 16px rgba(0,0,0,0.2); border-radius: 5px; z-index: 1;">
+      <a href="https://ml-logic-seminar.github.io/ml_logic_website/scientific_discovery.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">Neurosymbolic AI for Scientific Discovery</a>
+      <a href="https://ml-logic-seminar.github.io/ml_logic_website/neurosymbolic.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">NeuroSymbolic AI for Code</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  const dropdown = document.querySelector('.dropdown');
+  const content = dropdown.querySelector('.dropdown-content');
+  dropdown.querySelector('button').addEventListener('click', () => {
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+  });
+  window.addEventListener('click', (e) => {
+    if (!dropdown.contains(e.target)) {
+      content.style.display = 'none';
+    }
+  });
+</script>
+
 # 🧮 AI for Mathematics
 
 This page highlights ongoing and past research efforts connecting **AI, formal methods, and mathematical reasoning**.
@@ -6,8 +39,25 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
 
 <div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
   <div>
-    <h2><a href="https://arxiv.org/pdf/2510.15681" target="_blank">ProofBridge: Auto-Formalization of Natural Language Proofs in Lean via Joint Embeddings</a></h2>
-    <p><em>Authors:</em> Prithwish Jana, Kaan Kale, Ahmet Ege Tanriverdi, Cruise Song, Sriram Vishwanath, Vijay Ganesh</p>
+    <h2>
+      <a href="https://arxiv.org/pdf/2510.15681" target="_blank">
+        ProofBridge: Auto-Formalization of Natural Language Proofs in Lean via Joint Embeddings
+      </a> 
+      (2025)
+    </h2>
+    <p>
+      <strong>Authors:</strong>
+      <a href="https://sites.google.com/site/jprithwish/" target="_blank">Prithwish Jana</a><sup>1</sup>, 
+      <a href="https://www.linkedin.com/in/kaan-kale-209843164/" target="_blank">Kaan Kale</a><sup>1</sup>, 
+      <a href="https://scholar.google.com/citations?user=o_XZ4pEAAAAJ&hl=en" target="_blank">Ahmet Ege Tanriverdi</a><sup>2</sup>, 
+      <a href="https://cruisesong7.github.io/" target="_blank">Cruise Song</a><sup>1</sup>, 
+      <a href="https://ece.gatech.edu/directory/sriram-vishwanath" target="_blank">Sriram Vishwanath</a><sup>1</sup>, 
+      <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>1</sup>
+    </p>
+    <p>
+      <sup>1</sup>Georgia Institute of Technology, USA &nbsp;|&nbsp;
+      <sup>2</sup>Bogazici University, Turkiye
+    </p>
     <div style="height: 150px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
       <img src="{{ site.baseurl }}/assets/img/proofbridge_pipeline.png" alt="ProofBridge"
            style="max-height: 140px; width: auto; object-fit: contain; border-radius: 10px;">
@@ -26,8 +76,21 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
 
 <div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
   <div>
-    <h2><a href="https://arxiv.org/pdf/2510.12350" target="_blank">O-Forge: An LLM + Computer Algebra Framework for Asymptotic Analysis</a></h2>
-    <p><em>Authors:</em> Ayush Khaitan, Vijay Ganesh</p>
+    <h2>
+      <a href="https://arxiv.org/pdf/2510.12350" target="_blank">
+        O-Forge: An LLM + Computer Algebra Framework for Asymptotic Analysis
+      </a> 
+      (2025)
+    </h2>
+    <p>
+      <strong>Authors:</strong>
+      <a href="https://ayushkhaitanrutgers.github.io/" target="_blank">Ayush Khaitan</a><sup>1</sup>, 
+      <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>2</sup>
+    </p>
+    <p>
+      <sup>1</sup>Rutgers University, USA &nbsp;|&nbsp;
+      <sup>2</sup>Georgia Institute of Technology, USA
+    </p>
     <div style="height: 150px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
       <img src="{{ site.baseurl }}/assets/img/oforge_pipeline.png" alt="O-Forge"
            style="max-height: 140px; width: auto; object-fit: contain; border-radius: 10px;">
@@ -46,8 +109,25 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
 
 <div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
   <div>
-    <h2><a href="https://cs.uwaterloo.ca/~cbright/reports/synasc-mathcheck2.pdf" target="_blank">MathCheck2: A SAT+CAS Verifier for Combinatorial Conjectures</a></h2>
-    <p><em>Authors:</em> Curtis Bright, Vijay Ganesh, Albert Heinle, Ilias Kotsireas, Saeed Nejati, Krzysztof Czarnecki</p>
+    <h2>
+      <a href="https://cs.uwaterloo.ca/~cbright/reports/synasc-mathcheck2.pdf" target="_blank">
+        MathCheck2: A SAT+CAS Verifier for Combinatorial Conjectures
+      </a> 
+      (2016)
+    </h2>
+    <p>
+      <strong>Authors:</strong>
+      <a href="https://www.curtisbright.com/" target="_blank">Curtis Bright</a><sup>1</sup>, 
+      <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>1</sup>,
+      <a href="https://www.linkedin.com/in/albertheinle/" target="_blank">Albert Heinle</a><sup>1</sup>, 
+      <a href="https://web.wlu.ca/science/physcomp/ikotsireas/" target="_blank">Ilias Kotsireas</a><sup>2</sup>,
+      <a href="https://saeednj.github.io/" target="_blank">Saeed Nejati</a><sup>1</sup>, 
+      <a href="https://uwaterloo.ca/electrical-computer-engineering/profile/k2czarne" target="_blank">Krzysztof Czarnecki</a><sup>1</sup>
+    </p>
+    <p>
+      <sup>1</sup>University of Waterloo, Canada &nbsp;|&nbsp;
+      <sup>2</sup>Wilfred Laurier University, Canada
+    </p>
     <div style="height: 150px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
       <img src="{{ site.baseurl }}/assets/img/mathcheck2_pipeline.png" alt="MathCheck2"
            style="max-height: 140px; width: auto; object-fit: contain; border-radius: 10px;">
