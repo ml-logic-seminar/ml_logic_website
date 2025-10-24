@@ -1,6 +1,6 @@
 # 🧮 AI for Mathematics
 
-This page highlights ongoing and past research efforts connecting **AI, formal methods, and mathematical reasoning**.
+This page highlights ongoing and past research efforts connecting **AI, formal methods, and mathematical reasoning** at the **<a href="https://vganesh1.github.io/group.html" target="_blank">Reasoning and Learning Research group @ Georgia Tech led by Professor Vijay Ganesh</a>**.
 
 <!-- Top Navigation -->
 <div style="margin-bottom: 30px; display: flex; gap: 20px; align-items: center;">
