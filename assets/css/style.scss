@@ -37,7 +37,7 @@
 
 * {
   box-sizing: border-box;
-};
+}
 
 .container {
   display: flex;
@@ -46,7 +46,7 @@
   justify-content: flex-end;
   flex-flow: column wrap;
   align-items: center;
-};
+}
 
 .page-header {
   color: $header-heading-color;
@@ -68,31 +68,101 @@
 }
 
 @media (max-width: 840px) {
-  .topnav a:not(:first-child) {display: none;};
+  .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
-  };
+  }
   .headerImg {
     display: none;
-  };
-};
+  }
+}
 @media (max-width: 840px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
-  };
+  }
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
-  };
-};
+  }
+}
 table tr th:nth-child(2){
   width: 25%;
-};
+}
 table tr th:nth-child(3){
   width: 25%;
-};
+}
+
+/* ---- Enhanced Visuals ---- */
+
+/* Paper card polish and hover */
+.paper-card {
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  transition: transform 240ms ease, box-shadow 240ms ease;
+}
+
+.paper-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+/* Button-like links inside cards (match inline styled buttons) */
+.paper-card a[style*="background-color: #1b6ec2"] {
+  box-shadow: 0 2px 8px rgba(27,110,194,0.35);
+  transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+}
+
+.paper-card a[style*="background-color: #1b6ec2"]:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(27,110,194,0.45);
+  filter: brightness(1.03);
+}
+
+/* Dropdown animation (requires toggling .open on .dropdown-content) */
+.dropdown .dropdown-content {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: opacity 180ms ease, transform 180ms ease, visibility 0s linear 180ms;
+}
+
+.dropdown .dropdown-content.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition-delay: 0s;
+}
+
+/* Reveal-on-scroll animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.reveal.reveal-visible {
+  opacity: 1;
+  transform: none;
+  transition: opacity 420ms ease, transform 420ms ease;
+}
+
+/* Images inside cards */
+.paper-card img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  will-change: transform, opacity;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .paper-card, .paper-card:hover, .reveal, .reveal.reveal-visible, .dropdown .dropdown-content {
+    transition: none !important;
+    transform: none !important;
+  }
+}
