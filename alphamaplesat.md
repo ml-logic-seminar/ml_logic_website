@@ -2,7 +2,7 @@
 description: "AlphaMapleSAT (AMS): an MCTS-based cube-and-conquer SAT solver with deductive feedback that outperforms March on hard Kochen–Specker instances"
 ---
 
-# AlphaMapleSAT: An MCTS-based Cube-and-Conquer SAT Solver for Hard Combinatorial Problems
+# AlphaMapleSAT
 
 <style>
   /* Scoped styling to better match site defaults (Open Sans, site's blue, subtle shadows) */
@@ -33,7 +33,7 @@ description: "AlphaMapleSAT (AMS): an MCTS-based cube-and-conquer SAT solver wit
 <!-- Author/links card -->
 <div class="paper-card ams-page" style="display:flex; flex-direction:column; gap:12px; margin: 10px 0 26px 0; border:1px solid #e9eef6; padding:16px 18px; background:#ffffff;">
   <div>
-    <h2 style="margin: 0 0 8px 0;">AlphaMapleSAT</h2>
+    <h2 style="margin: 0 0 8px 0;">Overview</h2>
     <p style="margin: 0; font-size: 0.95rem;"><strong>Authors:</strong>
       <a href="https://piyush-j.github.io/" target="_blank">Piyush Jha</a><sup>†,1</sup>,
       <a href="https://404briannotfound.tech/" target="_blank">Zhengyu Li</a><sup>†,1</sup>,
@@ -62,10 +62,11 @@ description: "AlphaMapleSAT (AMS): an MCTS-based cube-and-conquer SAT solver wit
 </div>
 
 ## TL;DR
-AlphaMapleSAT (AMS) integrates Monte Carlo Tree Search (MCTS) with deductive feedback in the Cube-and-Conquer paradigm to guide cubing. By focusing exploration on promising cubes it reduces wasted work and achieves up to an 8× wall-clock speedup versus March on the hardest Kochen–Specker and Ramsey instances.
+AMS integrates Monte Carlo Tree Search (MCTS) with deductive feedback—using propagation rate via unit propagation—in the Cube-and-Conquer paradigm to guide cubing. By focusing exploration on promising cubes it reduces wasted work and achieves up to an 8× wall-clock speedup versus March on the hardest Kochen–Specker and Ramsey instances.
 
 ## Key ideas
-- MCTS-guided cubing with deductive rewards to prioritize promising branches.
+- MCTS-guided cubing with deductive rewards (propagation rate via unit propagation) to prioritize promising branches.
+- PUCT-based selection without neural nets; priors from BCP counts.
 - Boolean Constraint propagation (BCP) feedback from deeper exploration improves partition quality.
 - Keeps cubing costs low with lightweight simplification and incremental solving.
 
@@ -74,7 +75,7 @@ AlphaMapleSAT (AMS) integrates Monte Carlo Tree Search (MCTS) with deductive fee
   <img class="img-card" alt="AMS pipeline" src="{{site.baseurl}}/assets/img/ams/flow.png" style="max-width: 100%; height:auto;">
 </div>
 - Input: CNF formula
-- MCTS + deductive rewards to generate cubes
+- Cubing: MCTS + deductive rewards to generate cubes
 - Conquer: solve cubes in parallel with CDCL workers
 - Output: SAT / UNSAT
 
@@ -86,5 +87,10 @@ We evaluated AMS on challenging benchmarks such as the Kochen–Specker and Rams
   <div style="max-width:640px; width:100%;">
     <h3 style="margin:12px 0 6px 0; text-align:center; color:#0f3b66;">Key takeaways</h3>
     <img class="img-card" alt="Key takeaways" src="{{site.baseurl}}/assets/img/ams/takeaway.png" width="560" style="display:block; margin: 0 auto; max-width: 100%; height:auto;">
+    <ul style="margin: 10px 18px; padding-left: 18px;">
+      <li>Deductive reward is propagation rate (via unit propagation), used during MCTS selection/rollout to steer towards better cubes.</li>
+      <li>Up to 8× end-to-end speedups on the hardest Kochen–Specker and Ramsey instances</li>
+      <li>Integrates with MathCheck’s parallel CnC pipeline (CDCL workers); cubing stays cheap and scales.</li>
+    </ul>
   </div>
 </div>
