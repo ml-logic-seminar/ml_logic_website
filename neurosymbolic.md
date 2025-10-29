@@ -152,7 +152,7 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
       <sup>2</sup>Carnegie Mellon University, USA &nbsp;|&nbsp;
       <sup>3</sup>Pinterest Inc. &nbsp;|&nbsp;
       <sup>4</sup>Georgia Institute of Technology, USA &nbsp;|&nbsp;
-      <sup>5</sup>University of Wisconsin, Madison, USA &nbsp;|&nbsp;
+      <sup>5</sup>University of Wisconsin, Madison, USA
     </p>
     <div style="height: 150px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
       <img src="{{ site.baseurl }}/assets/img/smtlayer_pipeline.png" alt="CoTran"
@@ -174,28 +174,178 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
 
 ---
 
-## [CGDTest](https://arxiv.org/abs/2304.01826){:target="_blank"} ([Talk](https://simons.berkeley.edu/talks/constrained-gradient-descent-algorithm-testing-neural-networks){:target="_blank"})
-
-**TL;DR:**  
-Applies constrained gradient descent to systematically test deep networks, uncovering adversarial robustness and fairness issues more effectively than existing testing tools.
+<div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
+  <div>
+    <h2>
+      <a href="https://arxiv.org/pdf/2304.01826" target="_blank">
+        CGDTest: A Constrained Gradient Descent Algorithm for Testing Neural Networks
+      </a> 
+      (2023)
+    </h2>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Authors:</strong>
+      <a href="https://www.linkedin.com/in/vineel-nagisetty/" target="_blank">Vineel Nagisetty</a><sup>1</sup>, 
+      <a href="https://www.linkedin.com/in/laura-graves-ai/" target="_blank">Laura Graves</a><sup>1</sup>, 
+      <a href="https://www.linkedin.com/in/guantingpan/" target="_blank">Guanting Pan</a><sup>1</sup>, 
+      <a href="https://piyush-j.github.io/" target="_blank">Piyush Jha</a><sup>1</sup>, 
+      <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>1</sup>
+    </p>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Affiliation:</strong>
+      <sup>1</sup>University of Waterloo, Canada
+    </p>
+    <div style="height: 200px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+      <img src="{{ site.baseurl }}/assets/img/cgdtest_pipeline.png" alt="CGDTest"
+           style="max-height: 190px; width: auto; object-fit: contain; border-radius: 10px;">
+    </div>
+    <p><strong>TL;DR:</strong> Applies constrained gradient descent to systematically test deep networks, uncovering adversarial robustness and fairness issues more effectively than existing testing tools.</p>
+    <p>
+      <a href="https://arxiv.org/abs/2304.01826" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         arXiv
+      </a>
+      <a href="https://simons.berkeley.edu/talks/constrained-gradient-descent-algorithm-testing-neural-networks" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         Talk
+      </a>
+    </p>
+  </div>
+</div>
 
 ---
 
-## [Solver + Gradient Descent Training of Deep Neural Networks](https://dhananjayashok.github.io/Hybrid-Solver-NN-Training/){:target="_blank"}
-
-**TL;DR:**  
-Combines **gradient descent with MILP solver steps** to escape poor local minima and accelerate convergence on classification and regression tasks.
+<div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
+  <div>
+    <h2>
+      <a href="https://www.ijcai.org/proceedings/2022/0246.pdf" target="_blank">
+        A Solver + Gradient Descent Training Algorithm for Deep Neural Networks
+      </a> 
+      (2022)
+    </h2>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Authors:</strong>
+      <a href="https://dhananjayashok.github.io/" target="_blank">Dhananjay Ashok</a><sup>1</sup>, 
+      <a href="https://www.linkedin.com/in/vineel-nagisetty/" target="_blank">Vineel Nagisetty</a><sup>2</sup>, 
+      <a href="https://www.linkedin.com/in/christophersrinivasa/" target="_blank">Christopher Srinivasa</a><sup>2</sup>, 
+      <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>3</sup>
+    </p>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Affiliations:</strong>
+      <sup>1</sup>University of Toronto, Canada &nbsp;|&nbsp;
+      <sup>2</sup>Borealis AI &nbsp;|&nbsp;
+      <sup>3</sup>University of Waterloo, Canada
+    </p>
+    <div style="height: 150px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+      <img src="{{ site.baseurl }}/assets/img/gdsolver_pipeline.png" alt="GDSolver"
+           style="max-height: 140px; width: auto; object-fit: contain; border-radius: 10px;">
+    </div>
+    <p><strong>TL;DR:</strong> Combines gradient descent with MILP solver steps to escape poor local minima and accelerate convergence on classification and regression tasks.</p>
+    <p>
+      <a href="https://www.ijcai.org/proceedings/2022/246" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         Published in IJCAI-2022
+      </a>
+      <a href="https://dhananjayashok.github.io/Hybrid-Solver-NN-Training/" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         Project Page
+      </a>
+      <a href="https://github.com/DhananjayAshok/Hybrid-Solver-NN-Training" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         GitHub
+      </a>
+    </p>
+  </div>
+</div>
 
 ---
 
-## [Amnesiac Machine Learning](https://ml-logic-seminar.github.io/ml_logic_website/amnesiac.html){:target="_blank"}
-
-**TL;DR:**  
-Develops unlearning techniques that remove the influence of specific training data to satisfy privacy laws like GDPR while maintaining model performance.
+<div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
+  <div>
+    <h2>
+      <a href="https://arxiv.org/pdf/2010.10981" target="_blank">
+        Amnesiac Machine Learning
+      </a> 
+      (2021)
+    </h2>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Authors:</strong>
+      <a href="https://www.linkedin.com/in/laura-graves-ai/" target="_blank">Laura Graves</a><sup>1</sup>, 
+      <a href="https://www.linkedin.com/in/vineel-nagisetty/" target="_blank">Vineel Nagisetty</a><sup>1</sup>, 
+      <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>1</sup>
+    </p>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Affiliation:</strong>
+      <sup>1</sup>University of Waterloo, Canada
+    </p>
+    <div style="height: 150px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+      <img src="{{ site.baseurl }}/assets/img/amnesiacml_pipeline.png" alt="AmnesiacML"
+           style="max-height: 140px; width: auto; object-fit: contain; border-radius: 10px;">
+    </div>
+    <p><strong>TL;DR:</strong> Develops unlearning techniques that remove the influence of specific training data to satisfy privacy laws like GDPR while maintaining model performance.</p>
+    <p>
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17371" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         Published in AAAI-2021
+      </a>
+      <a href="https://arxiv.org/pdf/2010.10981" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         arXiv
+      </a>
+      <a href="https://ml-logic-seminar.github.io/ml_logic_website/amnesiac.html" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         Project Page
+      </a>
+      <a href="https://github.com/lmgraves/AmnesiacML" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         GitHub
+      </a>
+    </p>
+  </div>
+</div>
 
 ---
 
-## [xAI-GAN: Enhancing Generative Adversarial Networks via Explainable AI Systems](https://ml-logic-seminar.github.io/ml_logic_website/xAIGAN.html){:target="_blank"}
-
-**TL;DR:**  
-Leverages explainability to guide GAN training, improving both the interpretability and quality of generated outputs.
+<div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
+  <div>
+    <h2>
+      <a href="https://arxiv.org/pdf/2002.10438" target="_blank">
+        xAI-GAN: Enhancing Generative Adversarial Networks via Explainable AI Systems
+      </a> 
+      (2021)
+    </h2>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Authors:</strong>
+      <a href="https://www.linkedin.com/in/vineel-nagisetty/" target="_blank">Vineel Nagisetty</a><sup>1</sup>, 
+      <a href="https://www.linkedin.com/in/laura-graves-ai/" target="_blank">Laura Graves</a><sup>1</sup>, 
+      <a href="https://scholar.google.com/citations?user=Uo1jqLUAAAAJ&hl=en" target="_blank">Joseph Scott</a><sup>1</sup>, 
+      <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>1</sup>
+    </p>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Affiliation:</strong>
+      <sup>1</sup>University of Waterloo, Canada
+    </p>
+    <div style="height: 150px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+      <img src="{{ site.baseurl }}/assets/img/xaigan_pipeline.png" alt="xAI-GAN"
+           style="max-height: 140px; width: auto; object-fit: contain; border-radius: 10px;">
+    </div>
+    <p><strong>TL;DR:</strong> Leverages explainability to guide GAN training, improving both the interpretability and quality of generated outputs.</p>
+    <p>
+      <a href="https://www.dropbox.com/scl/fi/7k6r11uwyekrnsmyzwnwg/AAA-21-Explainable-Agency-in-AI-Workshop-Proceedings.pdf?rlkey=nyiahmjlejo96fuqcfowgsqxc&e=1&dl=0" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         Published in AAAI-21 (Explainable Agency Workshop)
+      </a>
+      <a href="https://arxiv.org/pdf/2002.10438" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         arXiv
+      </a>
+      <a href="https://ml-logic-seminar.github.io/ml_logic_website/xAIGAN.html" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         Project Page
+      </a>
+      <a href="https://github.com/vin-nag/XAI_GAN" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         GitHub
+      </a>
+    </p>
+  </div>
+</div>
