@@ -1,5 +1,5 @@
 ---
-description: "An MCTS-based cube-and-conquer SAT solver with deductive feedback that outperforms March on hard Kochen–Specker instances"
+description: "An MCTS-based cube-and-conquer SAT solver with deductive feedback that outperforms March on hard combinatorial instances"
 ---
 
 # AlphaMapleSAT
