@@ -19,9 +19,9 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
     <button style="background-color: #1b6ec2; color: white; padding: 8px 16px; font-size: 1rem; border: none; border-radius: 5px; cursor: pointer;">
       Other NeuroSymbolic AI Projects
     </button>
-    <div class="dropdown-content" style="display: none; position: absolute; background-color: white; min-width: 240px; box-shadow: 0px 8px 16px rgba(0,0,0,0.2); border-radius: 5px; z-index: 1;">
-      <a href="https://ml-logic-seminar.github.io/ml_logic_website/scientific_discovery.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">Neurosymbolic AI for Scientific Discovery</a>
-      <a href="https://ml-logic-seminar.github.io/ml_logic_website/neurosymbolic.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">NeuroSymbolic AI for Software Engineering</a>
+  <div class="dropdown-content" style="position: absolute; background-color: white; min-width: 240px; box-shadow: 0px 8px 16px rgba(0,0,0,0.2); border-radius: 5px; z-index: 1;">
+      <a href="{{ site.baseurl }}/scientific_discovery.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">Neurosymbolic AI for Scientific Discovery</a>
+      <a href="{{ site.baseurl }}/neurosymbolic.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">NeuroSymbolic AI for Software Engineering</a>
     </div>
   </div>
 </div>
@@ -29,12 +29,13 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
 <script>
   const dropdown = document.querySelector('.dropdown');
   const content = dropdown.querySelector('.dropdown-content');
-  dropdown.querySelector('button').addEventListener('click', () => {
-    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+  dropdown.querySelector('button').addEventListener('click', (e) => {
+    e.stopPropagation();
+    content.classList.toggle('open');
   });
   window.addEventListener('click', (e) => {
     if (!dropdown.contains(e.target)) {
-      content.style.display = 'none';
+      content.classList.remove('open');
     }
   });
 </script>
