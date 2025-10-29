@@ -103,6 +103,10 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
          style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
          arXiv
       </a>
+      <a href="https://o-forge.com/" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         Demo Website
+      </a>
     </p>
   </div>
 </div>
@@ -137,6 +141,10 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
     </div>
     <p><strong>TL;DR:</strong> MathCheck applies Boolean satisfiability (SAT) solvers and computer algebra systems (CASs) to efficiently search for mathematical objects and automatically generate computer-assisted proofs of combinatorial conjectures. It often solves problems thousands of times faster than either a SAT solver or a CAS.</p>
     <p>
+      <a href="https://link.springer.com/chapter/10.1007/978-3-319-45641-6_9" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         Published in CASC-2016
+      </a>
       <a href="https://uwaterloo.ca/mathcheck/" target="_blank" 
          style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
          Project Page
