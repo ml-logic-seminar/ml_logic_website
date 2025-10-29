@@ -5,27 +5,33 @@ description: "AlphaMapleSAT (AMS): an MCTS-based cube-and-conquer SAT solver wit
 # AlphaMapleSAT: An MCTS-based Cube-and-Conquer SAT Solver for Hard Combinatorial Problems
 
 <style>
-  /* subtle animations and nicer buttons just for this page */
-  @keyframes floatY { 0%{transform: translateY(0)} 50%{transform: translateY(-6px)} 100%{transform: translateY(0)} }
-  @keyframes fadeUp { from{opacity:0; transform: translateY(8px)} to{opacity:1; transform: translateY(0)} }
-  .fade-up { opacity:0; animation: fadeUp 600ms ease-out 60ms both; }
-  .float { animation: floatY 6s ease-in-out infinite; }
-  .img-card { transition: transform .25s ease, box-shadow .25s ease; border-radius:8px; }
-  .img-card:hover { transform: translateY(-3px) scale(1.01); box-shadow: 0 10px 28px rgba(0,0,0,.15); }
-  .btn-row a { display:inline-block; padding:10px 14px; border-radius:8px; text-decoration:none; font-size:.95rem; color:#fff; }
-  .btn-github { background: linear-gradient(135deg,#24292e,#2f363d); }
-  .btn-arxiv { background: linear-gradient(135deg,#cc0000,#e03131); }
-  .btn-secondary { background: linear-gradient(135deg,#1b6ec2,#2176d2); }
-  .btn-row a:hover { filter: brightness(1.05); transform: translateY(-2px); }
+  /* Scoped styling to better match site defaults (Open Sans, site's blue, subtle shadows) */
+  .ams-page { font-family: 'Open Sans', Arial, sans-serif; color: #17202a; }
+  @keyframes floatY { 0%{transform: translateY(0)} 50%{transform: translateY(-3px)} 100%{transform: translateY(0)} }
+  @keyframes fadeUp { from{opacity:0; transform: translateY(6px)} to{opacity:1; transform: translateY(0)} }
+  .fade-up { opacity:0; animation: fadeUp 560ms ease-out 60ms both; }
+  .float { animation: floatY 8s ease-in-out infinite; }
+  .img-card { transition: transform .22s ease, box-shadow .22s ease; border-radius:10px; }
+  .img-card:hover { transform: translateY(-4px); box-shadow: 0 12px 26px rgba(17,24,39,0.08); }
+  .btn-row a { display:inline-block; padding:10px 14px; border-radius:8px; text-decoration:none; font-size:.95rem; color:#fff; box-shadow: none; }
+  .btn-github { background: #24292e; }
+  .btn-arxiv { background: #cc0000; }
+  .btn-secondary { background: #1b6ec2; }
+  .btn-row a:hover { filter: brightness(1.03); transform: translateY(-1px); }
+  /* paper-card adjustments to match other pages */
+  .paper-card { border-radius:10px; box-shadow: 0 6px 18px rgba(17,24,39,0.03); }
+  /* responsive image handling */
+  .ams-hero { display:flex; justify-content:center; align-items:center; gap:20px; flex-wrap:wrap; margin: 10px 0 24px 0; }
+  .ams-hero img { max-width: 100%; height: auto; }
 </style>
 
-<div class="fade-up" style="display:flex;justify-content:center;align-items:center;margin: 10px 0 24px 0; gap:20px; flex-wrap:wrap;">
+<div class="fade-up ams-page ams-hero">
   <img class="float img-card" alt="AlphaMapleSAT logo" src="{{site.baseurl}}/assets/img/ams/logo.png" width="200" style="max-width: 50vw; height: auto;">
   <img class="img-card" alt="Reasoning to Learning" src="{{site.baseurl}}/assets/img/ams/reasoning-learning.png" style="max-width: 460px; width: 50%; height:auto;">
-  </div>
+</div>
 
 <!-- Author/links card -->
-<div class="paper-card" style="display:flex; flex-direction:column; gap:12px; margin: 10px 0 26px 0; border:1px solid #e5e5e5; border-radius:12px; padding:16px 18px; background:#fafbfc;">
+<div class="paper-card ams-page" style="display:flex; flex-direction:column; gap:12px; margin: 10px 0 26px 0; border:1px solid #e9eef6; padding:16px 18px; background:#ffffff;">
   <div>
     <h2 style="margin: 0 0 8px 0;">AlphaMapleSAT</h2>
     <p style="margin: 0; font-size: 0.95rem;"><strong>Authors:</strong>
@@ -56,34 +62,29 @@ description: "AlphaMapleSAT (AMS): an MCTS-based cube-and-conquer SAT solver wit
 </div>
 
 ## TL;DR
-AlphaMapleSAT (AMS) is a Monte Carlo Tree Search (MCTS) driven cube-and-conquer SAT solver for very hard combinatorial instances. AMS uses MCTS to explore the space of cubes (partial assignments) and a CDCL worker solver to conquer each subproblem. Deductive feedback from the worker solver informs the search policy so AMS focuses on the most promising branches. On Kochen–Specker benchmarks, AMS outperforms the state-of-the-art lookahead-based splitter March, achieving up to an 8× end-to-end speedup while solving more instances within the time limit.
+AlphaMapleSAT (AMS) integrates Monte Carlo Tree Search (MCTS) with deductive feedback in the Cube-and-Conquer paradigm to guide cubing. By focusing exploration on promising cubes it reduces wasted work and achieves up to an 8× wall-clock speedup versus March on the hardest Kochen–Specker and Ramsey instances.
 
-## Key ideas at a glance
-- MCTS-guided cube generation with principled exploration–exploitation trade-offs.
-- Deductive feedback from the CDCL worker to steer future expansions.
-- Lightweight simplification and incremental solving to minimize overhead.
-- A practical, easy-to-integrate splitter for modern CDCL solvers (MapleSAT backend in our experiments).
+## Key ideas
+- MCTS-guided cubing with deductive rewards to prioritize promising branches.
+- Boolean Constraint propagation (BCP) feedback from deeper exploration improves partition quality.
+- Keeps cubing costs low with lightweight simplification and incremental solving.
 
-## AMS pipeline
-The figure below summarizes AMS’s end-to-end workflow from instance generation to verdict:
-
-<div class="fade-up" style="display:flex; justify-content:center; margin: 8px 0 6px 0;">
+## Pipeline (summary)
+<div style="display:flex; justify-content:center; margin: 8px 0 6px 0;">
   <img class="img-card" alt="AMS pipeline" src="{{site.baseurl}}/assets/img/ams/flow.png" style="max-width: 100%; height:auto;">
-  </div>
-
-1. A simplified (or parameterized) instance is generated.
-2. AMS explores the cube space using MCTS and emits promising cubes.
-3. Cubes are merged with the base formula and simplified.
-4. A CDCL worker (MapleSAT in our implementation) conquers the resulting subproblems.
+</div>
+- Input: CNF formula
+- MCTS + deductive rewards to generate cubes
+- Conquer: solve cubes in parallel with CDCL workers
+- Output: SAT / UNSAT
 
 ## Results snapshot
-AMS consistently reduces total elapsed time compared to March on Kochen–Specker instances.
+We evaluated AMS on challenging benchmarks such as the Kochen–Specker and Ramsey problems. The bar chart above shows total elapsed wall-clock time per instance (AMS in pink, March in orange) — AMS achieves up to an 8× end-to-end speedup on the hardest instances.
 
-<div class="fade-up" style="display:flex; flex-direction:column; align-items:center; gap:14px;">
+<div class="fade-up ams-page" style="display:flex; flex-direction:column; align-items:center; gap:14px;">
   <img class="img-card" alt="Total elapsed real time by instance and method" src="{{site.baseurl}}/assets/img/ams/bar_chart.png" style="max-width: 100%;">
-  <img class="img-card" alt="Key takeaways" src="{{site.baseurl}}/assets/img/ams/takeaway.png" width="560" style="max-width: 90%; height:auto;">
+  <div style="max-width:640px; width:100%;">
+    <h3 style="margin:12px 0 6px 0; text-align:center; color:#0f3b66;">Key takeaways</h3>
+    <img class="img-card" alt="Key takeaways" src="{{site.baseurl}}/assets/img/ams/takeaway.png" width="560" style="display:block; margin: 0 auto; max-width: 100%; height:auto;">
+  </div>
 </div>
-
----
-
-<p style="text-align:center; color:#6a737d; margin-top: 18px;">Questions or collaboration ideas? Reach out to the authors above.</p>
