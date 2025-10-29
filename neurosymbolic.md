@@ -105,9 +105,9 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
       <sup>3</sup>UC San Diego, USA &nbsp;|&nbsp;
       <sup>4</sup>Columbia University, USA
     </p>
-    <div style="height: 200px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+    <div style="height: 250px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
       <img src="{{ site.baseurl }}/assets/img/cotran_pipeline.png" alt="CoTran"
-           style="max-height: 190px; width: auto; object-fit: contain; border-radius: 10px;">
+           style="max-height: 240px; width: auto; object-fit: contain; border-radius: 10px;">
     </div>
     <p><strong>TL;DR:</strong> Fine-tunes LLMs for end-to-end code translation using compiler and symbolic-execution feedback to improve compilability and functional equivalence.</p>
     <p>
