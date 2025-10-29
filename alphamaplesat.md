@@ -1,5 +1,5 @@
 ---
-description: "AlphaMapleSAT (AMS): an MCTS-based cube-and-conquer SAT solver with deductive feedback that outperforms March on hard Kochen–Specker instances"
+description: "An MCTS-based cube-and-conquer SAT solver with deductive feedback that outperforms March on hard Kochen–Specker instances"
 ---
 
 # AlphaMapleSAT
@@ -80,17 +80,12 @@ AMS integrates Monte Carlo Tree Search (MCTS) with deductive feedback—using pr
 - Output: SAT / UNSAT
 
 ## Results snapshot
-We evaluated AMS on challenging benchmarks such as the Kochen–Specker and Ramsey problems. The bar chart above shows total elapsed wall-clock time per instance (AMS in pink, March in orange) — AMS achieves up to an 8× end-to-end speedup on the hardest instances.
+We evaluated AMS on challenging benchmarks such as the Kochen–Specker and Ramsey problems. The bar chart above shows total elapsed wall-clock time per instance (AMS in pink, March in orange). AMS achieves up to an 8× end-to-end speedup on the hardest instances.
 
 <div class="fade-up ams-page" style="display:flex; flex-direction:column; align-items:center; gap:14px;">
   <img class="img-card" alt="Total elapsed real time by instance and method" src="{{site.baseurl}}/assets/img/ams/bar_chart.png" style="max-width: 100%;">
   <div style="max-width:640px; width:100%;">
-    <h3 style="margin:12px 0 6px 0; text-align:center; color:#0f3b66;">Key takeaways</h3>
+    <h3 style="margin:12px 0 6px 0; text-align:center; color:#0f3b66; font-weight:700;">Key takeaways</h3>
     <img class="img-card" alt="Key takeaways" src="{{site.baseurl}}/assets/img/ams/takeaway.png" width="560" style="display:block; margin: 0 auto; max-width: 100%; height:auto;">
-    <ul style="margin: 10px 18px; padding-left: 18px;">
-      <li>Deductive reward is propagation rate (via unit propagation), used during MCTS selection/rollout to steer towards better cubes.</li>
-      <li>Up to 8× end-to-end speedups on the hardest Kochen–Specker and Ramsey instances</li>
-      <li>Integrates with MathCheck’s parallel CnC pipeline (CDCL workers); cubing stays cheap and scales.</li>
-    </ul>
   </div>
 </div>
