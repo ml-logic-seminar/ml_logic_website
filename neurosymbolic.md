@@ -1,4 +1,4 @@
-# 💻 AI for Code
+# 💻 AI for Software Engineering
 
 This page highlights ongoing and past research efforts connecting **AI, formal methods, programming languages and software engineering** at the **<a href="https://vganesh1.github.io/group.html" target="_blank">reasoning and learning research group @ Georgia Tech led by Professor Vijay Ganesh</a>**.
 
