@@ -21,7 +21,7 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
     </button>
     <div class="dropdown-content" style="display: none; position: absolute; background-color: white; min-width: 240px; box-shadow: 0px 8px 16px rgba(0,0,0,0.2); border-radius: 5px; z-index: 1;">
       <a href="https://ml-logic-seminar.github.io/ml_logic_website/scientific_discovery.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">Neurosymbolic AI for Scientific Discovery</a>
-      <a href="https://ml-logic-seminar.github.io/ml_logic_website/neurosymbolic.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">NeuroSymbolic AI for Code</a>
+      <a href="https://ml-logic-seminar.github.io/ml_logic_website/neurosymbolic.html" style="color: black; padding: 10px 16px; display: block; text-decoration: none;">NeuroSymbolic AI for Software Engineering</a>
     </div>
   </div>
 </div>
