@@ -20,7 +20,7 @@ This page highlights ongoing and past research efforts applying machine learning
 <div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
   <div>
     <h2>
-      <a href="https://dl.acm.org/doi/10.24963/ijcai.2024/211" target="_blank">
+      <a href="https://github.com/JohnLyu2/z3alpha" target="_blank">
         Z3alpha: Layered and Staged Monte Carlo Tree Search for SMT Strategy Synthesis
       </a> 
       (2024)
@@ -42,6 +42,10 @@ This page highlights ongoing and past research efforts applying machine learning
       <sup>3</sup>Georgia Institute of Technology &nbsp;|&nbsp;
       <sup>4</sup>University of Göttingen
     </p>
+    <div style="height: 250px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+      <img src="{{ site.baseurl }}/assets/img/z3alpha.jpg" alt="Z3alpha"
+           style="max-height: 240px; width: auto; object-fit: contain; border-radius: 10px;">
+    </div>
     <p><strong>TL;DR:</strong> Z3alpha applies novel Monte Carlo Tree Search (MCTS) methods to automatically synthesize effective and interpretable solving strategies for SMT solvers. Built on top of Z3, it achieved state-of-the-art performance, winning multiple first prizes at SMT-COMP in both 2024 and 2025, including in challenging logics such as QF_NIA and QF_NRA. </p>
     <p>
       <a href="https://dl.acm.org/doi/10.24963/ijcai.2024/211" target="_blank" 
@@ -49,8 +53,86 @@ This page highlights ongoing and past research efforts applying machine learning
          IJCAI'24
       </a>
       <a href="https://link.springer.com/article/10.1007/s00236-025-00495-x" target="_blank" 
-         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem; margin-right: 8px;">
          Acta Informatica (extended version)
+      </a>
+      <a href="https://github.com/JohnLyu2/z3alpha" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         GitHub
+      </a>
+    </p>
+  </div>
+</div>
+
+---
+
+<div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
+  <div>
+    <h2>
+      <a href="https://machsmt.github.io/" target="_blank">
+        MachSMT: Algorithm Selection for SMT
+      </a> 
+      (2021)
+    </h2>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Authors:</strong>
+      Joseph Scott<sup>1</sup>, 
+      Aina Niemetz<sup>2</sup>, 
+      Mathias Preiner<sup>2</sup>, 
+      Saeed Nejati<sup>1</sup>, 
+      Vijay Ganesh<sup>1</sup>
+    </p>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Affiliations:</strong>
+      <sup>1</sup>University of Waterloo &nbsp;|&nbsp;
+      <sup>2</sup>Stanford University
+    </p>
+    <div style="height: 250px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+      <img src="{{ site.baseurl }}/assets/img/machsmt.png" alt="MachSMT"
+           style="max-height: 240px; width: auto; object-fit: contain; border-radius: 10px;">
+    </div>
+    <p><strong>TL;DR:</strong> MachSMT is an algorithm selection tool for SMT solvers that supports the full SMT-LIB language. It uses machine learning to build empirical hardness models and pairwise ranking comparators, allowing it to predict solver performance and rank solvers for any given formula. Extensively evaluated on data from SMT-COMP 2019 and 2020, MachSMT frequently improves on the competition winners.</p>
+    <p>
+      <a href="https://doi.org/10.1007/978-3-030-72013-1_16" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         TACAS'21
+      </a>
+    </p>
+  </div>
+</div>
+
+---
+
+<div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
+  <div>
+    <h2>
+      <a href="https://link.springer.com/chapter/10.1007/978-3-030-90870-6_6" target="_blank">
+        BanditFuzz: Fuzzing SMT Solvers with Multi-agent Reinforcement Learning
+      </a> 
+      (2021)
+    </h2>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Authors:</strong>
+      Joseph Scott<sup>1</sup>, 
+      Trishal Sudula<sup>1</sup>, 
+      Hammad Rehman<sup>1</sup>, 
+      Federico Mora<sup>2</sup>, 
+      Vijay Ganesh<sup>1</sup>
+    </p>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Affiliations:</strong>
+      <sup>1</sup>University of Waterloo, Canada &nbsp;|&nbsp;
+      <sup>2</sup>University of California, Berkeley, USA
+    </p>
+    <div style="height: 350px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+      <img src="{{ site.baseurl }}/assets/img/banditfuzz.png" alt="BanditFuzz"
+           style="max-height: 340px; width: auto; object-fit: contain; border-radius: 10px;">
+    </div>
+    <p><strong>TL;DR:</strong> BanditFuzz is a multi-agent reinforcement learning fuzzer that automatically generates inputs exposing performance bottlenecks in SMT solvers. It supports all SMT-LIB theories, lets users control input size, and significantly outperforms random and single-agent fuzzing, achieving up to an 82.6% gain in PAR-2 margins. Tested across 52 logics in SMT-COMP 2020, BanditFuzz uncovered surprising performance issues in major solvers including CVC4, Z3, and Bitwuzla..</p>
+    <p>
+      <a href="https://link.springer.com/chapter/10.1007/978-3-030-90870-6_6" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         FM'21
       </a>
     </p>
   </div>
