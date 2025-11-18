@@ -1,5 +1,5 @@
 ---
-description: "Advancing SMT with effective, adaptive, and intepretanle heuristics powered by ML, RL, and LLMs"
+description: "Advancing SMT with effective, adaptive, and interpretable heuristics powered by ML, RL, and LLMs"
 ---
 
 # ⚙️ Machine Learning for SMT
