@@ -35,10 +35,10 @@ This page highlights ongoing and past research efforts applying machine learning
     </p>
     <p style="margin: 0; font-size: 0.9rem;">
       <strong>Affiliations:</strong>
-      <sup>1</sup>University of Waterloo, Canada &nbsp;|&nbsp;
-      <sup>2</sup>LMU Munich, Germany &nbsp;|&nbsp;
-      <sup>3</sup>National Taiwan University, Taiwan &nbsp;|&nbsp;
-      <sup>4</sup>Georgia Institute of Technology, USA
+      <sup>1</sup>University of Waterloo &nbsp;|&nbsp;
+      <sup>2</sup>LMU Munich &nbsp;|&nbsp;
+      <sup>3</sup>National Taiwan University &nbsp;|&nbsp;
+      <sup>4</sup>Georgia Institute of Technology
     </p>
     <div style="height: 300px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
       <img src="{{ site.baseurl }}/assets/img/btor2select.png" alt="Btor2-Select"
