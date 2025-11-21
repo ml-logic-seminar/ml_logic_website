@@ -69,6 +69,42 @@ This page highlights ongoing and past research efforts applying machine learning
 <div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
   <div>
     <h2>
+      <a href="https://ceur-ws.org/Vol-3185/extended678.pdf" target="_blank">
+        Goose: A Meta-Solver for Deep Neural Network Verification
+      </a> 
+      (2022)
+    </h2>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Authors:</strong>
+      Joseph Scott<sup>1</sup>, 
+      Guanting Pan<sup>1</sup>, 
+      Elias B. Khalil<sup>2</sup>, 
+      Vijay Ganesh<sup>1</sup>
+    </p>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Affiliations:</strong>
+      <sup>1</sup>University of Waterloo, Ontario, Canada &nbsp;|&nbsp;
+      <sup>2</sup>University of Toronto, Ontario, Canada
+    </p>
+    <div style="height: 350px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+      <img src="{{ site.baseurl }}/assets/img/goose.png" alt="Goose"
+           style="max-height: 340px; width: auto; object-fit: contain; border-radius: 10px;">
+    </div>
+    <p><strong>TL;DR:</strong> Goose is a meta-solver for deep neural network verification. Its architecture supports a wide variety of complete and incomplete solvers and leverages three key meta-solving techniques to improve efficiency: algorithm selection, probabilistic satisfiability inference, and time iterative deepening. Goose achieves a 47.3% improvement in PAR-2 score across over 800 benchmarks and 13 solvers from VNN-COMP '21.</p>
+    <p>
+      <a href="https://ceur-ws.org/Vol-3185/extended678.pdf" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         SMT'22
+      </a>
+    </p>
+  </div>
+</div>
+
+---
+
+<div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
+  <div>
+    <h2>
       <a href="https://machsmt.github.io/" target="_blank">
         MachSMT: Algorithm Selection for SMT
       </a> 
