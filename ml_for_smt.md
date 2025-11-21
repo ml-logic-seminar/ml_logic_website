@@ -40,9 +40,9 @@ This page highlights ongoing and past research efforts applying machine learning
       <sup>3</sup>National Taiwan University, Taiwan &nbsp;|&nbsp;
       <sup>4</sup>Georgia Institute of Technology, USA
     </p>
-    <div style="height: 350px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+    <div style="height: 300px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
       <img src="{{ site.baseurl }}/assets/img/btor2select.png" alt="Btor2-Select"
-           style="max-height: 340px; width: auto; object-fit: contain; border-radius: 10px;">
+           style="max-height: 290px; width: auto; object-fit: contain; border-radius: 10px;">
     </div>
     <p><strong>TL;DR:</strong> Btor2-Select is a machine-learning-based algorithm-selection framework for hardware verifiers. Using a simple and effective design supported by a graph-based circuit representation, Btor2-Select significantly improves the performance of single verifiers and delivers strong generalization across diverse hardware benchmarks.</p>
     <p>
