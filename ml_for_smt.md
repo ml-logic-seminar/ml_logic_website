@@ -126,8 +126,8 @@ This page highlights ongoing and past research efforts applying machine learning
     </p>
     <p style="margin: 0; font-size: 0.9rem;">
       <strong>Affiliations:</strong>
-      <sup>1</sup>University of Waterloo, Ontario, Canada &nbsp;|&nbsp;
-      <sup>2</sup>University of Toronto, Ontario, Canada
+      <sup>1</sup>University of Waterloo &nbsp;|&nbsp;
+      <sup>2</sup>University of Toronto
     </p>
     <div style="height: 350px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
       <img src="{{ site.baseurl }}/assets/img/goose.png" alt="Goose"
@@ -200,8 +200,8 @@ This page highlights ongoing and past research efforts applying machine learning
     </p>
     <p style="margin: 0; font-size: 0.9rem;">
       <strong>Affiliations:</strong>
-      <sup>1</sup>University of Waterloo, Canada &nbsp;|&nbsp;
-      <sup>2</sup>University of California, Berkeley, USA
+      <sup>1</sup>University of Waterloo &nbsp;|&nbsp;
+      <sup>2</sup>University of California, Berkeley
     </p>
     <div style="height: 350px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
       <img src="{{ site.baseurl }}/assets/img/banditfuzz.png" alt="BanditFuzz"
