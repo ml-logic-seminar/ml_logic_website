@@ -20,49 +20,6 @@ This page highlights ongoing and past research efforts applying machine learning
 <div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
   <div>
     <h2>
-      <a href="https://gitlab.com/sosy-lab/software/btor2-select" target="_blank">
-        Btor2-Select: Machine Learning Based Algorithm Selection for Hardware Model Checking
-      </a> 
-      (2025)
-    </h2>
-    <p style="margin: 0; font-size: 0.9rem;">
-      <strong>Authors:</strong>
-      John Zhengyang Lu<sup>1</sup>, 
-      Po-Chun Chien<sup>2</sup>, 
-      Nian-Ze Lee<sup>2,3</sup>, 
-      Arie Gurfinkel<sup>1</sup>, 
-      Vijay Ganesh<sup>4</sup>
-    </p>
-    <p style="margin: 0; font-size: 0.9rem;">
-      <strong>Affiliations:</strong>
-      <sup>1</sup>University of Waterloo &nbsp;|&nbsp;
-      <sup>2</sup>LMU Munich &nbsp;|&nbsp;
-      <sup>3</sup>National Taiwan University &nbsp;|&nbsp;
-      <sup>4</sup>Georgia Institute of Technology
-    </p>
-    <div style="height: 300px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-      <img src="{{ site.baseurl }}/assets/img/btor2select.png" alt="Btor2-Select"
-           style="max-height: 290px; width: auto; object-fit: contain; border-radius: 10px;">
-    </div>
-    <p><strong>TL;DR:</strong> Btor2-Select is a machine-learning-based algorithm-selection framework for hardware verifiers. Using a simple and effective design supported by a graph-based circuit representation, Btor2-Select significantly improves the performance of single verifiers and delivers strong generalization across diverse hardware benchmarks.</p>
-    <p>
-      <a href="https://link.springer.com/chapter/10.1007/978-3-031-98668-0_15" target="_blank" 
-         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem; margin-right: 8px;">
-         CAV'25
-      </a>
-      <a href="https://gitlab.com/sosy-lab/software/btor2-select" target="_blank" 
-         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
-         GitLab
-      </a>
-    </p>
-  </div>
-</div>
-
----
-
-<div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
-  <div>
-    <h2>
       <a href="https://github.com/JohnLyu2/z3alpha" target="_blank">
         Z3alpha: Layered and Staged Monte Carlo Tree Search for SMT Strategy Synthesis
       </a> 
@@ -102,6 +59,49 @@ This page highlights ongoing and past research efforts applying machine learning
       <a href="https://github.com/JohnLyu2/z3alpha" target="_blank" 
          style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
          GitHub
+      </a>
+    </p>
+  </div>
+</div>
+
+---
+
+<div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
+  <div>
+    <h2>
+      <a href="https://gitlab.com/sosy-lab/software/btor2-select" target="_blank">
+        Btor2-Select: Machine Learning Based Algorithm Selection for Hardware Model Checking
+      </a> 
+      (2025)
+    </h2>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Authors:</strong>
+      John Zhengyang Lu<sup>1</sup>, 
+      Po-Chun Chien<sup>2</sup>, 
+      Nian-Ze Lee<sup>2,3</sup>, 
+      Arie Gurfinkel<sup>1</sup>, 
+      Vijay Ganesh<sup>4</sup>
+    </p>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Affiliations:</strong>
+      <sup>1</sup>University of Waterloo &nbsp;|&nbsp;
+      <sup>2</sup>LMU Munich &nbsp;|&nbsp;
+      <sup>3</sup>National Taiwan University &nbsp;|&nbsp;
+      <sup>4</sup>Georgia Institute of Technology
+    </p>
+    <div style="height: 300px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+      <img src="{{ site.baseurl }}/assets/img/btor2select.png" alt="Btor2-Select"
+           style="max-height: 290px; width: auto; object-fit: contain; border-radius: 10px;">
+    </div>
+    <p><strong>TL;DR:</strong> Btor2-Select is a machine-learning-based algorithm-selection framework for hardware verifiers. Using a simple and effective design supported by a graph-based circuit representation, Btor2-Select significantly improves the performance of single verifiers and delivers strong generalization across diverse hardware benchmarks.</p>
+    <p>
+      <a href="https://link.springer.com/chapter/10.1007/978-3-031-98668-0_15" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem; margin-right: 8px;">
+         CAV'25
+      </a>
+      <a href="https://gitlab.com/sosy-lab/software/btor2-select" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         GitLab
       </a>
     </p>
   </div>
