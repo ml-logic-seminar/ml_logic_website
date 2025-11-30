@@ -84,7 +84,7 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
   <div>
     <h2>
       <a href="https://provables.org/sequencelib/" target="_blank">
-        Sequencelib: A Platform for Formalizing Sequences from The On-Line Encyclopedia of Integer Sequences (OEIS)
+        SequenceLib: A Platform for Formalizing Sequences from The On-Line Encyclopedia of Integer Sequences (OEIS)
       </a> 
       (2025)
     </h2>
