@@ -84,7 +84,7 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
   <div>
     <h2>
       <a href="https://provables.org/sequencelib/" target="_blank">
-        SequenceLib: A Platform for Formalizing Sequences from The On-Line Encyclopedia of Integer Sequences (OEIS)
+        Sequencelib: A Platform for Formalizing Sequences from The On-Line Encyclopedia of Integer Sequences (OEIS)
       </a> 
       (2025)
     </h2>
@@ -100,10 +100,10 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
       <sup>2</sup>Georgia Institute of Technology, USA
     </p>
     <div style="height: 150px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-      <img src="{{ site.baseurl }}/assets/img/sequencelib_pipeline.png" alt="SequenceLib"
+      <img src="{{ site.baseurl }}/assets/img/sequencelib_pipeline.png" alt="Sequencelib"
            style="max-height: 140px; width: auto; object-fit: contain; border-radius: 10px;">
     </div>
-    <p><strong>TL;DR:</strong> SequenceLib is a formal library in Lean 4 that encodes thousands of integer sequences from the OEIS catalog and millions of theorems about them, along with metaprogramming tools to index sequences, compute values, and relate equivalent sequences.</p>
+    <p><strong>TL;DR:</strong> Sequencelib is a formal library in Lean 4 that encodes thousands of integer sequences from the OEIS catalog and millions of theorems about them, along with metaprogramming tools to index sequences, compute values, and relate equivalent sequences.</p>
     <p>
       <a href="https://provables.org/sequencelib/" target="_blank" 
          style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
