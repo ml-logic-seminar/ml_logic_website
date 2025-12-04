@@ -4,7 +4,7 @@ description: "Machine Learning-based parallel SAT solving via symbolic feedback 
 
 # ⚙️ Machine Learning based Parallel SAT
 
-This page highlights ongoing and past research efforts connecting AI, symbolic systems, and scientific discovery at the <a href="https://vganesh1.github.io/group.html" target="_blank">reasoning and learning research group @ Georgia Tech led by Professor Vijay Ganesh</a>.
+This page showcases how the <a href="https://vganesh1.github.io/group.html" target="_blank">reasoning and learning research group @ Georgia Tech led by Professor Vijay Ganesh</a> is advancing parallel SAT solving with machine learning, symbolic deductive feedback, and high-performance cube-and-conquer strategies.
 
 <!-- Top Navigation -->
 <div style="margin-bottom: 30px; display: flex; gap: 20px; align-items: center;">
