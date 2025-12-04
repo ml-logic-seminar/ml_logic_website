@@ -83,6 +83,41 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
 <div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
   <div>
     <h2>
+      <a href="https://provables.org/sequencelib/" target="_blank">
+        Sequencelib: A Platform for Formalizing Sequences from The On-Line Encyclopedia of Integer Sequences (OEIS)
+      </a> 
+      (2025)
+    </h2>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Authors:</strong>
+      <a href="https://github.com/waltermoreira" target="_blank">Walter Moreira</a><sup>1</sup>, 
+      <a href="https://tacc.utexas.edu/about/staff-directory/joe-stubbs/" target="_blank">Joe Stubbs</a><sup>1</sup>, 
+      <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>2</sup>
+    </p>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Affiliations:</strong>
+      <sup>1</sup>TACC, University of Texas at Austin, USA &nbsp;|&nbsp;
+      <sup>2</sup>Georgia Institute of Technology, USA
+    </p>
+    <div style="height: 150px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+      <img src="{{ site.baseurl }}/assets/img/sequencelib_pipeline.png" alt="Sequencelib"
+           style="max-height: 140px; width: auto; object-fit: contain; border-radius: 10px;">
+    </div>
+    <p><strong>TL;DR:</strong> Sequencelib is a formal library in Lean 4 that encodes thousands of integer sequences from the OEIS catalog and millions of theorems about them, along with metaprogramming tools to index sequences, compute values, and relate equivalent sequences.</p>
+    <p>
+      <a href="https://provables.org/sequencelib/" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         Website
+      </a>
+    </p>
+  </div>
+</div>
+
+---
+
+<div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
+  <div>
+    <h2>
       <a href="https://arxiv.org/pdf/2510.12350" target="_blank">
         O-Forge: An LLM + Computer Algebra Framework for Asymptotic Analysis
       </a> 
