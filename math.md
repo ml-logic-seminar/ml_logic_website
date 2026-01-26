@@ -48,7 +48,7 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
       <a href="https://arxiv.org/pdf/2510.15681" target="_blank">
         ProofBridge: Auto-Formalization of Natural Language Proofs in Lean via Joint Embeddings
       </a> 
-      (2025)
+      (2026)
     </h2>
     <p style="margin: 0; font-size: 0.9rem;">
       <strong>Authors:</strong>
@@ -70,6 +70,10 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
     </div>
     <p><strong>TL;DR:</strong> ProofBridge is a unified framework that translates natural language theorems and proofs into Lean 4 using joint embeddings, cross-modal retrieval-augmented fine-tuning, and iterative proof repair, achieving strong semantic and type correctness gains.</p>
     <p>
+      <a href="" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         Published in ICLR-2026
+      </a>
       <a href="https://arxiv.org/abs/2510.15681" target="_blank" 
          style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
          arXiv
