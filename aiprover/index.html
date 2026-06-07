@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AIProver — AI for Mathematical Reasoning, Proof Synthesis & Math Assistance</title>
+  <meta name="description" content="AIProver is a neuro-symbolic framework for auto-formalization, proof synthesis, mathematical assistance, and novel discovery, uniting LLMs with SAT/SMT solvers, computer algebra systems, and Lean 4." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=6" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a href="index.html" class="brand">
+        <span class="logo-mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M3 12h18M6 6l12 12M18 6L6 18"/></svg>
+        </span>
+        AIProver
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="publications.html">Publications</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <header class="hero wrap">
+    <h1>From informal mathematics to <span class="gradient-text">machine-checkable</span> proof</h1>
+    <p class="lead">
+      AIProver is a neuro-symbolic framework for auto-formalization, proof synthesis, mathematical assistance, and novel discovery, pairing auto-formalizing LLMs with SAT/SMT solvers, computer algebra systems, and the Lean 4 theorem prover.
+    </p>
+    <div class="hero-actions">
+      <a href="research.html" class="btn btn-primary">Read the research</a>
+      <a href="publications.html" class="btn btn-ghost">See publications</a>
+    </div>
+  </header>
+
+  <section class="institutions wrap">
+    <p class="institutions-label">A collaboration across</p>
+    <div class="institutions-row reveal">
+      <img class="inst-logo" src="assets/logos/georgia-tech.png?v=2" alt="Georgia Tech" title="Georgia Tech" />
+      <img class="inst-logo" src="assets/logos/rutgers.png?v=2" alt="Rutgers University" title="Rutgers University" />
+      <img class="inst-logo" src="assets/logos/princeton.png?v=2" alt="Princeton University" title="Princeton University" />
+      <img class="inst-logo" src="assets/logos/ut-austin.png?v=2" alt="UT Austin (TACC)" title="UT Austin (TACC)" />
+      <img class="inst-logo" src="assets/logos/penn.png?v=2" alt="University of Pennsylvania" title="University of Pennsylvania" />
+    </div>
+  </section>
+
+  <hr class="divider wrap" style="border:0; border-top:1px solid var(--border); max-width:var(--maxw); margin:0 auto;" />
+
+  <section class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">Why AIProver</div>
+      <h2>Bridging informal reasoning and formal verification</h2>
+      <p>A unified pipeline that turns natural-language mathematics into Lean-verified proofs, and acts as a research assistant alongside working mathematicians.</p>
+    </div>
+    <div class="features">
+      <article class="card reveal">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-4 12.7V17a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-2.3A7 7 0 0 0 12 2Z"/><path d="M9 22h6"/></svg>
+        </div>
+        <h3>Neuro-symbolic core</h3>
+        <p>An auto-formalizing LLM proposes; SAT/SMT solvers, computer algebra systems, and Lean 4 verify. Every step is grounded in formal logic.</p>
+      </article>
+      <article class="card reveal">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <h3>Math assistant</h3>
+        <p>A conversational research aide for mathematicians: answers questions, suggests lemmas, sketches proof strategies, and grounds suggestions in verified knowledge.</p>
+      </article>
+      <article class="card reveal">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 14 4-4 3 3 5-6"/></svg>
+        </div>
+        <h3>Semantic retrieval</h3>
+        <p>Semantic Alignment Models (SAMs) align informal and formal proofs in a shared embedding space, powering RAG context, concept search, and hierarchical proof refinement.</p>
+      </article>
+      <article class="card reveal">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg>
+        </div>
+        <h3>Open &amp; reproducible</h3>
+        <p>Tools, libraries, and benchmarks are released openly so the community can verify, extend, and build on every result.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">The Ecosystem</div>
+      <h2>One framework, specialized solvers</h2>
+      <p>AIProver orchestrates domain-specific tools, each targeting a different mathematical area, alongside the Sequencelib formalization project.</p>
+    </div>
+    <div class="eco-grid reveal">
+      <a href="tools.html#g-simple" class="eco-tile">
+        <span class="badge g-violet">GS</span>
+        <span class="meta"><strong>G-Simple</strong><span>Group theory &amp; abstract algebra</span></span>
+      </a>
+      <a href="https://provables.org/sequencelib" target="_blank" rel="noopener" class="eco-tile">
+        <span class="badge g-teal">SL</span>
+        <span class="meta"><strong>Sequencelib</strong><span>Lean 4 formalization of the OEIS</span></span>
+      </a>
+      <a href="https://o-forge.com/" target="_blank" rel="noopener" class="eco-tile">
+        <span class="badge g-pink">OF</span>
+        <span class="meta"><strong>O-Forge</strong><span>Asymptotic analysis &amp; inequalities</span></span>
+      </a>
+      <a href="tools.html#ai-qft" class="eco-tile">
+        <span class="badge g-amber">QF</span>
+        <span class="meta"><strong>AI-QFT</strong><span>Quantified formula reasoning</span></span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <p>© 2026 AIProver. A research initiative in logic and machine learning.</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="publications.html">Publications</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

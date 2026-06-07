@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research — AIProver</title>
+  <meta name="description" content="The research vision behind AIProver: neuro-symbolic reasoning, auto-formalization, mathematical assistance, and verified discovery." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=6" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a href="index.html" class="brand">
+        <span class="logo-mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M3 12h18M6 6l12 12M18 6L6 18"/></svg>
+        </span>
+        AIProver
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="research.html" class="active">Research</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="publications.html">Publications</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <header class="page-head wrap">
+    <h1>Auto-formalization, proof synthesis, and mathematical assistance</h1>
+    <p>AIProver is a unified neuro-symbolic framework for translating informal mathematics into Lean 4, supporting working mathematicians, and enabling novel discovery.</p>
+  </header>
+
+  <section class="wrap tight">
+    <div class="features">
+      <article class="card reveal">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 9 9"/><path d="M12 7v5l3 3"/></svg>
+        </div>
+        <h3>The challenge</h3>
+        <p>Research-level mathematics demands both creative leaps and unforgiving rigor. Bridging informal arguments and machine-checkable proof, at scale, is an open problem.</p>
+      </article>
+      <article class="card reveal">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/><circle cx="12" cy="12" r="4"/></svg>
+        </div>
+        <h3>Our approach</h3>
+        <p>An auto-formalizing LLM produces candidate Lean 4 proofs; SAT/SMT solvers, computer algebra systems, and tactic-level metaprogramming verify and repair them in a tight feedback loop.</p>
+      </article>
+      <article class="card reveal">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+        </div>
+        <h3>The payoff</h3>
+        <p>An ever-expanding, self-improving knowledge base of verified mathematics, and a credible path to attacking long-standing open problems in group theory, analysis, and beyond.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">Research Pillars</div>
+      <h2>Five directions, one framework</h2>
+      <p>Core research thrusts driving AIProver toward scalable, verified mathematical reasoning.</p>
+    </div>
+    <div class="pillars">
+      <article class="pillar reveal">
+        <span class="pillar-num">01</span>
+        <h3>Auto-formalization &amp; proof synthesis</h3>
+        <p>Translating informal mathematics into Lean 4, then synthesizing and repairing proofs through tight loops between LLMs, SAT/SMT solvers, computer algebra systems, and tactic-level metaprogramming.</p>
+      </article>
+      <article class="pillar reveal">
+        <span class="pillar-num">02</span>
+        <h3>Mathematical assistant</h3>
+        <p>An interactive, conversational aide for working mathematicians, capable of answering technical questions, suggesting relevant lemmas, sketching proof strategies, and grounding every suggestion in formally verified knowledge.</p>
+      </article>
+      <article class="pillar reveal">
+        <span class="pillar-num">03</span>
+        <h3>Semantic Contrastive Learning &amp; SAMs</h3>
+        <p>Training Semantic Alignment Models (SAMs) that align informal and formal proofs in a shared embedding space, enabling RAG retrieval, concept search across fields, and hierarchical proof refinement, foundational to <a href="publications.html" class="accent-link">ProofBridge</a>.</p>
+      </article>
+      <article class="pillar reveal">
+        <span class="pillar-num">04</span>
+        <h3>Group theory &amp; abstract algebra</h3>
+        <p>Attacking open problems on simplicity and structure of infinite groups, including those tied to infinite-dimensional Lie algebras and P. M. Neumann's open problem (F21), via <a href="tools.html#g-simple" class="accent-link">G-Simple</a> and GAP integration.</p>
+      </article>
+      <article class="pillar reveal">
+        <span class="pillar-num">05</span>
+        <h3>Asymptotic analysis &amp; integer sequences</h3>
+        <p>Verifying inequalities and asymptotic estimates with <a href="https://o-forge.com/" target="_blank" rel="noopener" class="accent-link">O-Forge</a>, and formalizing the OEIS at scale through <a href="https://provables.org/sequencelib" target="_blank" rel="noopener" class="accent-link">Sequencelib</a>.</p>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <p>© 2026 AIProver. A research initiative in logic and machine learning.</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="publications.html">Publications</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

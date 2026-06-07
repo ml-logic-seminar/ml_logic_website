@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications — AIProver</title>
+  <meta name="description" content="Papers, preprints, and software releases from the AIProver research effort." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=6" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a href="index.html" class="brand">
+        <span class="logo-mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M3 12h18M6 6l12 12M18 6L6 18"/></svg>
+        </span>
+        AIProver
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="publications.html" class="active">Publications</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <header class="page-head wrap">
+    <h1>Publications</h1>
+    <p>Papers, preprints, and open-source releases from the AIProver effort.</p>
+  </header>
+
+  <section class="wrap tight">
+    <div class="pub-list">
+
+      <article class="pub reveal">
+        <span class="pub-venue">ICLR 2026</span>
+        <div class="pub-title">ProofBridge: Auto-Formalization of Natural Language Proofs in Lean via Joint Embeddings</div>
+        <div class="pub-authors">
+          Prithwish Jana<sup>1</sup>, Kaan Kale<sup>1</sup>, Ahmet Ege Tanriverdi<sup>2</sup>, Cruise Song<sup>1</sup>, Sriram Vishwanath<sup>1</sup>, Vijay Ganesh<sup>1</sup>
+        </div>
+        <div class="pub-affil">
+          <sup>1</sup>Georgia Institute of Technology, USA &nbsp;·&nbsp; <sup>2</sup>Bogazici University, Turkiye
+        </div>
+        <img class="pub-image" src="assets/pubs/proofbridge_pipeline.png" alt="ProofBridge pipeline diagram" />
+        <p class="pub-tldr"><strong>TL;DR:</strong> ProofBridge is a unified framework that translates natural-language theorems and proofs into Lean 4 using joint embeddings, cross-modal retrieval-augmented fine-tuning, and iterative proof repair, yielding notable improvements in semantic and type correctness.</p>
+        <div class="pub-links">
+          <a class="pub-link" href="https://arxiv.org/abs/2510.15681" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7"/><path d="M10 14 21 3"/><path d="M21 14v7H3V3h7"/></svg>
+            arXiv:2510.15681
+          </a>
+          <a class="pub-link" href="https://github.com/PrithwishJana/ProofBridge" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3"/><path d="M15 22v-4a3.4 3.4 0 0 0-1-2.6c3.3-.4 6.5-1.7 6.5-7.3A5.7 5.7 0 0 0 19 4.8c.2-.6.5-2-.2-4 0 0-1.2-.4-4 1.5a13.4 13.4 0 0 0-7 0c-2.8-1.9-4-1.5-4-1.5-.7 2-.4 3.4-.2 4A5.7 5.7 0 0 0 2.5 8c0 5.6 3.2 6.9 6.5 7.3a3.4 3.4 0 0 0-1 2.6V22"/></svg>
+            GitHub
+          </a>
+        </div>
+      </article>
+
+      <article class="pub reveal">
+        <span class="pub-venue venue-preprint">Preprint, 2026</span>
+        <div class="pub-title">Sequencelib: A Platform for Formalizing Sequences from The On-Line Encyclopedia of Integer Sequences (OEIS)</div>
+        <div class="pub-authors">
+          Walter Moreira<sup>1</sup>, Joe Stubbs<sup>1</sup>, Vijay Ganesh<sup>2</sup>
+        </div>
+        <div class="pub-affil">
+          <sup>1</sup>TACC, University of Texas at Austin, USA &nbsp;·&nbsp; <sup>2</sup>Georgia Institute of Technology, USA
+        </div>
+        <img class="pub-image" src="assets/pubs/sequencelib_pipeline.png" alt="Sequencelib pipeline diagram" />
+        <p class="pub-tldr"><strong>TL;DR:</strong> Sequencelib is a formal library in Lean 4 that encodes thousands of integer sequences from the OEIS catalog, millions of theorems about them, and metaprogramming tools to index sequences, compute values, and relate equivalent sequences.</p>
+        <div class="pub-links">
+          <a class="pub-link" href="https://arxiv.org/abs/2601.11757" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7"/><path d="M10 14 21 3"/><path d="M21 14v7H3V3h7"/></svg>
+            arXiv:2601.11757
+          </a>
+          <a class="pub-link" href="https://provables.org/sequencelib" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+            provables.org/sequencelib
+          </a>
+        </div>
+      </article>
+
+      <article class="pub reveal">
+        <span class="pub-venue venue-preprint">Preprint, 2025</span>
+        <div class="pub-title">O-Forge: An LLM + Computer Algebra Framework for Asymptotic Analysis</div>
+        <div class="pub-authors">
+          Ayush Khaitan<sup>1</sup>, Vijay Ganesh<sup>2</sup>
+        </div>
+        <div class="pub-affil">
+          <sup>1</sup>Rutgers University, USA &nbsp;·&nbsp; <sup>2</sup>Georgia Institute of Technology, USA
+        </div>
+        <img class="pub-image" src="assets/pubs/oforge_pipeline.png" alt="O-Forge pipeline diagram" />
+        <p class="pub-tldr"><strong>TL;DR:</strong> An LLM-CAS framework that quickly obtains full proofs of asymptotic estimates that are commonly and laboriously calculated in research mathematics.</p>
+        <div class="pub-links">
+          <a class="pub-link" href="https://arxiv.org/abs/2510.12350" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7"/><path d="M10 14 21 3"/><path d="M21 14v7H3V3h7"/></svg>
+            arXiv:2510.12350
+          </a>
+          <a class="pub-link" href="https://o-forge.com/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+            o-forge.com
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <p>© 2026 AIProver. A research initiative in logic and machine learning.</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="publications.html">Publications</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

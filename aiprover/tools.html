@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tools — AIProver</title>
+  <meta name="description" content="The AIProver toolchain: G-Simple, Sequencelib, O-Forge, and AI-QFT, open tools for automated mathematical reasoning." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=6" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a href="index.html" class="brand">
+        <span class="logo-mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M3 12h18M6 6l12 12M18 6L6 18"/></svg>
+        </span>
+        AIProver
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="tools.html" class="active">Tools</a></li>
+        <li><a href="publications.html">Publications</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <header class="page-head wrap">
+    <h1>The AIProver toolchain</h1>
+    <p>Domain-specific solvers and knowledge bases, orchestrated within AIProver's auto-formalization and proof-synthesis pipeline.</p>
+  </header>
+
+  <section class="wrap tight">
+    <div class="tools-grid">
+
+      <article class="card tool-card reveal" id="g-simple">
+        <div class="tool-top">
+          <span class="badge-lg g-violet">GS</span>
+          <div>
+            <h3>G-Simple</h3>
+            <span class="tag">Group Theory &amp; Abstract Algebra</span>
+          </div>
+        </div>
+        <p class="tool-desc">
+          A domain-specific solver for group theory and abstract algebra. G-Simple integrates with GAP (Groups, Algorithms and Programming) to attack open problems on simplicity, perfectness, and structure of infinite groups, including those arising from infinite-dimensional Lie algebras.
+        </p>
+        <span class="tool-link muted">Coming soon</span>
+      </article>
+
+      <article class="card tool-card reveal" id="sequencelib">
+        <div class="tool-top">
+          <span class="badge-lg g-teal">SL</span>
+          <div>
+            <h3>Sequencelib</h3>
+            <span class="tag">Lean 4 Formalization of the OEIS</span>
+          </div>
+        </div>
+        <p class="tool-desc">
+          A project to formalize the mathematics of the On-Line Encyclopedia of Integer Sequences in Lean 4, targeting over 100,000 sequences and tens of millions of theorems about their values. Led by Walter Moreira with Joe Stubbs.
+        </p>
+        <a class="tool-link" href="https://provables.org/sequencelib" target="_blank" rel="noopener">
+          Visit Sequencelib
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </a>
+      </article>
+
+      <article class="card tool-card reveal" id="o-forge">
+        <div class="tool-top">
+          <span class="badge-lg g-pink">OF</span>
+          <div>
+            <h3>O-Forge</h3>
+            <span class="tag">Asymptotic Analysis &amp; Inequalities</span>
+          </div>
+        </div>
+        <p class="tool-desc">
+          An LLM and computer algebra framework for verifying inequalities and reasoning about asymptotic behavior. O-Forge complements general-purpose provers with techniques tailored to the structure of analytic estimates, developed by Ayush Khaitan and Vijay Ganesh.
+        </p>
+        <a class="tool-link" href="https://o-forge.com/" target="_blank" rel="noopener">
+          Visit O-Forge
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </a>
+      </article>
+
+      <article class="card tool-card reveal" id="ai-qft">
+        <div class="tool-top">
+          <span class="badge-lg g-amber">QF</span>
+          <div>
+            <h3>AI-QFT</h3>
+            <span class="tag">Quantified Reasoning</span>
+          </div>
+        </div>
+        <p class="tool-desc">
+          A reasoning module for quantified formulas, statements with "for all" and "there exists" that sit at the heart of mathematical logic. AI-QFT pairs learned heuristics with SAT/SMT solvers to tackle quantifier-rich problems.
+        </p>
+        <span class="tool-link muted">Coming soon</span>
+      </article>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <p>© 2026 AIProver. A research initiative in logic and machine learning.</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="publications.html">Publications</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
