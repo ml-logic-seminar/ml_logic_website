@@ -64,3 +64,18 @@ document.querySelectorAll("img.avatar").forEach((img) => {
     }
   });
 });
+
+// Rotate highlight across hero research-direction tags
+const directionTags = document.querySelectorAll(".hero-directions .hero-direction");
+if (directionTags.length) {
+  let active = 0;
+  directionTags[active].classList.add("hero-direction-accent");
+  const rotateDirections = () => {
+    directionTags[active].classList.remove("hero-direction-accent");
+    active = (active + 1) % directionTags.length;
+    directionTags[active].classList.add("hero-direction-accent");
+  };
+  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    setInterval(rotateDirections, 2200);
+  }
+}
