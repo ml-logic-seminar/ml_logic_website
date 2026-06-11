@@ -14,6 +14,11 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
     Vijay Ganesh's Homepage
   </a>
 
+  <a href="{{ site.baseurl }}/aiprover/"
+     style="background-color: #1b6ec2; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 1rem;">
+    AIProver
+  </a>
+
   <!-- Neuro-Symbolic / Logic for ML Projects Dropdown -->
   <div class="dropdown" style="position: relative; display: inline-block;">
     <button style="background-color: #1b6ec2; color: white; padding: 8px 16px; font-size: 1rem; border: none; border-radius: 5px; cursor: pointer;">

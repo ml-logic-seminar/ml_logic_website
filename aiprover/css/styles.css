@@ -266,6 +266,9 @@ section.tight { padding-top: 32px; padding-bottom: 32px; }
   max-width: min(780px, 92vw);
   margin: 18px auto 0;
 }
+.hero-title-block .hero-divider:last-of-type {
+  margin-top: 20px;
+}
 .hero-motto-audience {
   display: block;
   margin-top: 6px;
@@ -316,9 +319,10 @@ section.tight { padding-top: 32px; padding-bottom: 32px; }
 .hero-rise-2 { animation-delay: 0.2s; }
 .hero-rise-3 { animation-delay: 0.28s; }
 .hero-rise-4 { animation-delay: 0.38s; }
-.hero-rise-5 { animation-delay: 0.48s; }
-.hero-rise-6 { animation-delay: 0.58s; }
-.hero-rise-7 { animation-delay: 0.68s; }
+.hero-rise-5 { animation-delay: 0.46s; }
+.hero-rise-6 { animation-delay: 0.54s; }
+.hero-rise-7 { animation-delay: 0.64s; }
+.hero-rise-8 { animation-delay: 0.74s; }
 @media (prefers-reduced-motion: reduce) {
   .hero-rise { animation: none; opacity: 1; transform: none; }
 }
