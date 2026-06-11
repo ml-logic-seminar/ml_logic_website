@@ -245,9 +245,9 @@ section.tight { padding-top: 32px; padding-bottom: 32px; }
 .hero-tagline {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: clamp(1.05rem, 2vw, 1.55rem);
+  font-size: clamp(1.1rem, 2.2vw, 1.65rem);
   line-height: 1.35;
-  letter-spacing: -0.018em;
+  letter-spacing: -0.022em;
   color: var(--text);
   max-width: min(920px, 96vw);
   margin: 0 auto;
@@ -255,6 +255,26 @@ section.tight { padding-top: 32px; padding-bottom: 32px; }
 .hero-tagline .gradient-text {
   color: var(--accent);
   font-weight: 700;
+}
+.hero-motto {
+  font-family: var(--font-display);
+  font-size: clamp(0.95rem, 1.6vw, 1.15rem);
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  max-width: min(780px, 92vw);
+  margin: 18px auto 0;
+}
+.hero-motto-audience {
+  display: block;
+  margin-top: 6px;
+  font-family: var(--font);
+  font-size: clamp(0.78rem, 1.2vw, 0.88rem);
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 0.01em;
+  color: var(--text-dim);
 }
 .hero-directions {
   display: flex;
@@ -296,15 +316,16 @@ section.tight { padding-top: 32px; padding-bottom: 32px; }
 .hero-rise-2 { animation-delay: 0.2s; }
 .hero-rise-3 { animation-delay: 0.28s; }
 .hero-rise-4 { animation-delay: 0.38s; }
-.hero-rise-5 { animation-delay: 0.52s; }
-.hero-rise-6 { animation-delay: 0.66s; }
+.hero-rise-5 { animation-delay: 0.48s; }
+.hero-rise-6 { animation-delay: 0.58s; }
+.hero-rise-7 { animation-delay: 0.68s; }
 @media (prefers-reduced-motion: reduce) {
   .hero-rise { animation: none; opacity: 1; transform: none; }
 }
 .gradient-text { color: var(--accent); font-weight: 600; }
 .hero p.lead {
   max-width: 660px;
-  margin: 28px auto 0;
+  margin: 32px auto 0;
   font-size: clamp(1rem, 1.3vw, 1.13rem);
   color: var(--text-soft);
   line-height: 1.65;
