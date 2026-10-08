@@ -14,7 +14,7 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
     Vijay Ganesh's Homepage
   </a>
 
-  <a href="https://jprithwish.github.io/AIProver/" target="_blank"
+  <a href="{{ site.baseurl }}/aiprover/"
      style="background-color: #1b6ec2; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 1rem;">
     AIProver
   </a>
@@ -79,9 +79,9 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
       <sup>5</sup>Simon Fraser University, Canada &nbsp;|&nbsp;
       <sup>6</sup>University of Texas at Austin, USA
     </p>
-    <div style="height: 150px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+    <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
       <img src="{{ site.baseurl }}/assets/img/aiprover_pipeline.png" alt="AIProver"
-           style="max-height: 140px; width: auto; object-fit: contain; border-radius: 10px;">
+           style="width: 100%; max-width: 600px; height: auto; object-fit: contain; border-radius: 10px;">
     </div>
     <p><strong>TL;DR:</strong> AIProver is an open-weight Lean agent that post-trains a 119B language model while evolving its agentic harness via certificate-driven search (HarnessEvolve), using a semantic alignment model and symbolic verifiers as rewards. On research-level mathematics it lifts semantic correctness from 15.7% to 36.7% standalone, and to 79.8% as a Claude Code skill.</p>
     <p>
@@ -117,19 +117,15 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
       <strong>Affiliations:</strong>
       <sup>1</sup>Georgia Institute of Technology, USA
     </p>
-    <div style="height: 150px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-      <img src="{{ site.baseurl }}/assets/img/sam_pipeline.svg" alt="Semantic Alignment Models"
-           style="max-height: 140px; width: auto; object-fit: contain; border-radius: 10px;">
+    <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+      <img src="{{ site.baseurl }}/assets/img/sam_pipeline.png" alt="Semantic Alignment Models"
+           style="width: 100%; max-width: 700px; height: auto; object-fit: contain; border-radius: 10px;">
     </div>
     <p><strong>TL;DR:</strong> Semantic Alignment Models (SAMs) are joint embedding models, trained by semantic contrastive learning, that map semantically equivalent informal (natural language) and formal (Lean 4) mathematics to a shared representation space. Instantiated as ProofBridge, SAMs improve cross-modal retrieval by up to 3.28× over a strong text encoder and boost downstream proof auto-formalization by +31.14% semantic correctness and +1.64% type correctness.</p>
     <p>
       <a href="https://link.springer.com/chapter/10.1007/978-3-032-38214-6_1" target="_blank" 
          style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
          Published in CICM-2026 (Invited Paper)
-      </a>
-      <a href="https://jprithwish.github.io/AIProver/" target="_blank" 
-         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
-         Project Page
       </a>
     </p>
   </div>
