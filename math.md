@@ -102,7 +102,7 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
 <div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
   <div>
     <h2>
-      <a href="https://doi.org/10.1007/978-3-032-38214-6_1" target="_blank">
+      <a href="https://link.springer.com/chapter/10.1007/978-3-032-38214-6_1" target="_blank">
         Semantic Alignment Models: A Bridge Between Informal and Formal Mathematics
       </a> 
       (2026)
@@ -123,13 +123,9 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
     </div>
     <p><strong>TL;DR:</strong> Semantic Alignment Models (SAMs) are joint embedding models, trained by semantic contrastive learning, that map semantically equivalent informal (natural language) and formal (Lean 4) mathematics to a shared representation space. Instantiated as ProofBridge, SAMs improve cross-modal retrieval by up to 3.28× over a strong text encoder and boost downstream proof auto-formalization by +31.14% semantic correctness and +1.64% type correctness.</p>
     <p>
-      <a href="https://www.springerprofessional.de/en/semantic-alignment-models-a-bridge-between-informal-and-formal-m/53777140" target="_blank" 
+      <a href="https://link.springer.com/chapter/10.1007/978-3-032-38214-6_1" target="_blank" 
          style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
-         Invited Paper, CICM-2026
-      </a>
-      <a href="https://doi.org/10.1007/978-3-032-38214-6_1" target="_blank" 
-         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
-         Paper
+         Published in CICM-2026 (Invited Paper)
       </a>
       <a href="https://jprithwish.github.io/AIProver/" target="_blank" 
          style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
