@@ -14,7 +14,7 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
     Vijay Ganesh's Homepage
   </a>
 
-  <a href="{{ site.baseurl }}/aiprover/"
+  <a href="https://jprithwish.github.io/AIProver/" target="_blank"
      style="background-color: #1b6ec2; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 1rem;">
     AIProver
   </a>
@@ -44,6 +44,60 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
     }
   });
 </script>
+
+---
+
+<!-- AIProver Featured Project -->
+<div style="margin-bottom: 30px; border: 2px solid #1b6ec2; border-radius: 10px; padding: 15px 20px; background-color: #f3f8fd;">
+  <h2 style="margin-top: 0;">
+    🚀 Featured Project:
+    <a href="https://jprithwish.github.io/AIProver/" target="_blank">AIProver</a>
+  </h2>
+  <p style="margin: 0 0 8px 0;"><strong>Agentic Auto-Formalization of Mathematical Research via Certificate-Driven Evolving Harness</strong></p>
+  <p style="margin: 0 0 12px 0;">An affordable, autonomous AI agent for semantically correct and faithful proof auto-formalization of research-level mathematics. AIProver post-trains an open-weight language model while simultaneously evolving its agentic harness to translate natural-language theorems and proofs into formally verified Lean code.</p>
+  <a href="https://jprithwish.github.io/AIProver/" target="_blank"
+     style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+     Visit AIProver
+  </a>
+</div>
+
+---
+
+<div class="paper-card" style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
+  <div>
+    <h2>
+      <a href="https://doi.org/10.1007/978-3-032-38214-6_1" target="_blank">
+        Semantic Alignment Models: A Bridge Between Informal and Formal Mathematics
+      </a> 
+      (2026)
+    </h2>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Authors:</strong>
+      <a href="https://sites.google.com/site/jprithwish/" target="_blank">Prithwish Jana</a><sup>1</sup>, 
+      <a href="https://ece.gatech.edu/directory/sriram-vishwanath" target="_blank">Sriram Vishwanath</a><sup>1</sup>, 
+      <a href="https://vganesh1.github.io/" target="_blank">Vijay Ganesh</a><sup>1</sup>
+    </p>
+    <p style="margin: 0; font-size: 0.9rem;">
+      <strong>Affiliations:</strong>
+      <sup>1</sup>Georgia Institute of Technology, USA
+    </p>
+    <div style="height: 150px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+      <img src="{{ site.baseurl }}/assets/img/proofbridge_pipeline.png" alt="Semantic Alignment Models"
+           style="max-height: 140px; width: auto; object-fit: contain; border-radius: 10px;">
+    </div>
+    <p><strong>TL;DR:</strong> Semantic Alignment Models (SAMs) are joint embedding models, trained by semantic contrastive learning, that map semantically equivalent informal (natural language) and formal (Lean 4) mathematics to a shared representation space. Instantiated as ProofBridge, SAMs improve cross-modal retrieval by up to 3.28× over a strong text encoder and boost downstream proof auto-formalization by +31.14% semantic correctness and +1.64% type correctness.</p>
+    <p>
+      <a href="https://www.springerprofessional.de/en/semantic-alignment-models-a-bridge-between-informal-and-formal-m/53777140" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         Published in CICM-2026
+      </a>
+      <a href="https://doi.org/10.1007/978-3-032-38214-6_1" target="_blank" 
+         style="display: inline-block; padding: 6px 12px; background-color: #1b6ec2; color: white; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">
+         DOI
+      </a>
+    </p>
+  </div>
+</div>
 
 ---
 
