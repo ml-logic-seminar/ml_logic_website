@@ -14,11 +14,6 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
     Vijay Ganesh's Homepage
   </a>
 
-  <a href="{{ site.baseurl }}/aiprover/"
-     style="background-color: #1b6ec2; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 1rem;">
-    AIProver
-  </a>
-
   <!-- Neuro-Symbolic / Logic for ML Projects Dropdown -->
   <div class="dropdown" style="position: relative; display: inline-block;">
     <button style="background-color: #1b6ec2; color: white; padding: 8px 16px; font-size: 1rem; border: none; border-radius: 5px; cursor: pointer;">
@@ -81,7 +76,7 @@ This page highlights ongoing and past research efforts connecting **AI, formal m
     </p>
     <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
       <img src="{{ site.baseurl }}/assets/img/aiprover_pipeline.png" alt="AIProver"
-           style="width: 100%; max-width: 600px; height: auto; object-fit: contain; border-radius: 10px;">
+           style="width: 100%; max-width: 450px; height: auto; object-fit: contain; border-radius: 10px;">
     </div>
     <p><strong>TL;DR:</strong> AIProver is an open-weight Lean agent that post-trains a 119B language model while evolving its agentic harness via certificate-driven search (HarnessEvolve), using a semantic alignment model and symbolic verifiers as rewards. On research-level mathematics it lifts semantic correctness from 15.7% to 36.7% standalone, and to 79.8% as a Claude Code skill.</p>
     <p>
